@@ -1,3 +1,4 @@
+
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -5,7 +6,7 @@ const Footer = () => {
     <footer className="py-8 border-t border-border">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-muted-foreground text-sm font-display">
-          © 2024 <span className="text-primary">{"<Dev />"}</span>. All rights reserved.
+          © 2026 <span className="text-primary">{"Niranjan"}</span>. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
           {[Github, Linkedin, Twitter].map((Icon, i) => (
