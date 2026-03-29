@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
@@ -55,13 +54,32 @@ const Hero = () => {
             className="flex items-center justify-center gap-4 mb-12"
           >
             {[
-              { icon: Github, href: "https://github.com/cdyniranjan7321", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#contact", label: "Email" },
-            ].map(({ icon: Icon, href, label }) => (
+              { 
+                icon: Github, 
+                href: "https://github.com/cdyniranjan7321", 
+                label: "GitHub",
+                target: "_blank",
+                rel: "noopener noreferrer"
+              },
+              { 
+                icon: Linkedin, 
+                href: "https://linkedin.com/in/niranjanchaudhary", 
+                label: "LinkedIn",
+                target: "_blank",
+                rel: "noopener noreferrer"
+              },
+              { 
+                icon: Mail, 
+                href: "#contact", 
+                label: "Email",
+                target: "_self"
+              },
+            ].map(({ icon: Icon, href, label, target, rel }) => (
               <a
                 key={label}
                 href={href}
+                target={target}
+                rel={rel}
                 className="p-3 rounded-lg border border-border hover:border-primary/40 hover:shadow-[var(--shadow-glow-sm)] text-muted-foreground hover:text-primary transition-all duration-300"
               >
                 <Icon size={20} />
