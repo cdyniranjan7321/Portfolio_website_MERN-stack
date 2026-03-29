@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
 import { useState } from "react";
@@ -22,7 +23,7 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary">{"// "}</span>Get In Touch
+            <span className="text-primary">{""}</span>Get In Touch
           </h2>
           <div className="w-20 h-0.5 bg-primary/40 mx-auto" />
         </motion.div>
@@ -42,9 +43,9 @@ const Contact = () => {
 
             <div className="space-y-4">
               {[
-                { icon: Mail, label: "hello@yourname.com" },
-                { icon: Phone, label: "+1 234 567 890" },
-                { icon: MapPin, label: "Your City, Country" },
+                { icon: Mail, label: "cdyniranjan7321@gmail.com" },
+                { icon: Phone, label: "+977 9869148791" },
+                { icon: MapPin, label: "Pokhara, Nepal" },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-4 text-muted-foreground">
                   <div className="p-2.5 rounded-lg bg-muted">
@@ -56,6 +57,7 @@ const Contact = () => {
             </div>
           </motion.div>
 
+{ /* 
           <motion.form
             onSubmit={handleSubmit}
             initial={{ opacity: 0, x: 30 }}
@@ -95,6 +97,8 @@ const Contact = () => {
               Send Message <Send size={16} />
             </motion.button>
           </motion.form>
+          */}
+
         </div>
       </div>
     </section>
