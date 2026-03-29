@@ -11,16 +11,16 @@ const experiences = [
     tech: ["React", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
   {
-    role: "Frontend Developer",
-    company: "Digital Agency",
-    period: "2021 – 2022",
+    role: "React Developer",
+    company: "Aakar eSolution",
+    period: "2023 – 2024",
     desc: "Developed responsive, high-performance UIs for client projects. Improved page load times by 40% through code splitting and optimization.",
     tech: ["React", "Next.js", "Tailwind CSS", "Redux"],
   },
   {
-    role: "Junior Web Developer",
-    company: "Startup Inc.",
-    period: "2020 – 2021",
+    role: "Junior Web Developer(Internship)",
+    company: "Aakar eSolution",
+    period: "2023",
     desc: "Built RESTful APIs and contributed to frontend features. Collaborated in agile team to deliver MVP products on tight deadlines.",
     tech: ["JavaScript", "Express.js", "MongoDB", "HTML/CSS"],
   },
@@ -38,7 +38,7 @@ const Experience = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary">{"// "}</span>Experience
+            <span className="text-primary">{""}</span>Experience
           </h2>
           <div className="w-20 h-0.5 bg-primary/40 mx-auto" />
         </motion.div>
