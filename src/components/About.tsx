@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Code2, Server, Database, Layers } from "lucide-react";
 
 const highlights = [
-  { icon: Code2, label: "Frontend", desc: "React, Next.js, TypeScript" },
-  { icon: Server, label: "Backend", desc: "Node.js, Express.js" },
-  { icon: Database, label: "Database", desc: "MongoDB, PostgreSQL" },
+  { icon: Code2, label: "Frontend", desc: "JS, React.js, Next.js, TypeScript" },
+  { icon: Server, label: "Backend", desc: "Node.js, Express.js, Php" },
+  { icon: Database, label: "Database", desc: "MongoDB, PostgreSQL, MySQL" },
   { icon: Layers, label: "Full Stack", desc: "End-to-end solutions" },
 ];
 
@@ -20,7 +20,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary">{"// "}</span>About Me
+            <span className="text-primary">{""}</span>About Me
           </h2>
           <div className="w-20 h-0.5 bg-primary/40 mx-auto" />
         </motion.div>
