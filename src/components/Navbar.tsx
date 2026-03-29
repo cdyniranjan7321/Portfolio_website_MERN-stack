@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -23,7 +24,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#home" className="font-display text-xl font-bold text-gradient">
-          {"<Dev />"}
+          {"Niranjan"}
         </a>
 
         {/* Desktop */}
