@@ -38,6 +38,14 @@ const skillCategories = [
       { name: "CI/CD", level: 70 },
     ],
   },
+  {
+    title: "Deploying and Hosting",
+    skills: [
+      { name: "Vercel", level: 95 },
+      { name: "Render", level: 85 },
+      { name: "cPanel", level: 88 },
+    ],
+  },
 ];
 
 const Skills = () => {

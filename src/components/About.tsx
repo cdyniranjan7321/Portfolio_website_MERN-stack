@@ -1,11 +1,12 @@
 
 import { motion } from "framer-motion";
-import { Code2, Server, Database, Layers } from "lucide-react";
+import { Code2, Server, Database, Layers, Globe } from "lucide-react";
 
 const highlights = [
   { icon: Code2, label: "Frontend", desc: "JS, React.js, Next.js, TypeScript" },
   { icon: Server, label: "Backend", desc: "Node.js, Express.js, Php" },
   { icon: Database, label: "Database", desc: "MongoDB, PostgreSQL, MySQL" },
+  { icon: Globe, label: "Deployment & Hosting", desc: "cPanel, Vercel, Render" },
   { icon: Layers, label: "Full Stack", desc: "End-to-end solutions" },
 ];
 
@@ -37,7 +38,7 @@ const About = () => {
               I'm a passionate Full Stack Developer specializing in the{" "}
               <span className="text-primary font-semibold">MERN Stack</span>. With over 3 years of
               professional experience, I've built and maintained complex web applications for diverse
-              clients and industries.
+              clients and industries. I've also working on deploying and hosting applications on platforms like cPanel, Vercel, and Render.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               I love turning ideas into reality through clean, efficient code. My expertise spans from

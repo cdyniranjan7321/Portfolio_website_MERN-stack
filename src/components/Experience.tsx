@@ -1,13 +1,14 @@
+
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
     role: "Full Stack Developer",
-    company: "Tech Company",
-    period: "2022 – Present",
+    company: "Bytesoft Nepal Software Company",
+    period: "2024 – Present",
     desc: "Building and maintaining large-scale web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture.",
-    tech: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
   {
     role: "Frontend Developer",
