@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 4%;
+    --foreground: 210 20% 92%;
+
+    --card: 220 18% 8%;
+    --card-foreground: 210 20% 92%;
+
+    --popover: 220 18% 8%;
+    --popover-foreground: 210 20% 92%;
+
+    --primary: 175 80% 50%;
+    --primary-foreground: 220 20% 4%;
+
+    --secondary: 220 16% 14%;
+    --secondary-foreground: 210 20% 85%;
+
+    --muted: 220 14% 12%;
+    --muted-foreground: 215 12% 55%;
+
+    --accent: 280 70% 60%;
+    --accent-foreground: 210 20% 95%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 16%;
+    --input: 220 14% 16%;
+    --ring: 175 80% 50%;
+
+    --radius: 0.5rem;
+
+    --glow-primary: 175 80% 50%;
+    --gradient-hero: linear-gradient(135deg, hsl(175 80% 50% / 0.15), hsl(280 70% 60% / 0.1));
+    --gradient-card: linear-gradient(145deg, hsl(220 18% 10%), hsl(220 18% 6%));
+    --shadow-glow: 0 0 30px hsl(175 80% 50% / 0.15);
+    --shadow-glow-sm: 0 0 15px hsl(175 80% 50% / 0.1);
+
+    --font-display: 'JetBrains Mono', monospace;
+    --font-body: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  ::selection {
+    background: hsl(175 80% 50% / 0.3);
+    color: hsl(210 20% 95%);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(220 18% 6%);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(175 80% 50% / 0.3);
+    border-radius: 3px;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(175 80% 50%), hsl(280 70% 60%));
+  }
+
+  .border-glow {
+    border-color: hsl(175 80% 50% / 0.2);
+    box-shadow: var(--shadow-glow-sm);
+  }
+
+  .bg-grid {
+    background-image: 
+      linear-gradient(hsl(175 80% 50% / 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(175 80% 50% / 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .glass {
+    background: hsl(220 18% 8% / 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(175 80% 50% / 0.1);
+  }
+}
