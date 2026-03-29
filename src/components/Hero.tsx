@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
@@ -28,10 +29,10 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6"
+            className="font-display text-4xl sm:text-5xl md:text-5xl font-bold leading-tight mb-6"
           >
             Hi, I'm{" "}
-            <span className="text-gradient">Your Name</span>
+            <span className="text-gradient">Niranjan Chaudhary</span>
           </motion.h1>
 
           <motion.div
@@ -54,7 +55,7 @@ const Hero = () => {
             className="flex items-center justify-center gap-4 mb-12"
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
+              { icon: Github, href: "https://github.com/cdyniranjan7321", label: "GitHub" },
               { icon: Linkedin, href: "#", label: "LinkedIn" },
               { icon: Mail, href: "#contact", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
