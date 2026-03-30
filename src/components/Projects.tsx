@@ -1,48 +1,49 @@
+
 import { motion } from "framer-motion";
 import { ExternalLink, Github, Folder } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    desc: "Full-featured online store with cart, payments, admin dashboard, and real-time inventory management.",
-    tech: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
-    github: "#",
-    live: "#",
+    title: "Little Heart Pet Shop",
+    desc: "Full-featured Pets Shop online store with cart, payments, admin dashboard, and real-time inventory management.",
+    tech: ["React", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Redux", "Cloudinary", "SMTP Emails"],
+    github: "https://github.com/cdyniranjan7321/Rivo_ecommerce-_website",
+    live: "https://shop.littleheartpetshop.com.np/",
   },
   {
-    title: "Project Management Tool",
-    desc: "Collaborative task management app with real-time updates, drag-and-drop boards, and team chat.",
-    tech: ["Next.js", "Express", "Socket.io", "MongoDB"],
-    github: "#",
-    live: "#",
+    title: "Baber shop",
+    desc: "A barber shop website with online Appointment booking, service listings, staffselection, Time&Date selection and customer reviews",
+    tech: ["Next.js", "Express.js", "Socket.io", "MongoDB"],
+    github: "https://github.com/cdyniranjan7321/Barber_shop",
+    live: "https://practise.blueskyindustries.com.np/",
   },
   {
-    title: "Social Media Dashboard",
-    desc: "Analytics dashboard integrating multiple social APIs with data visualization and automated reporting.",
+    title: "Business Appointments Dashboard",
+    desc: "Analytics dashboard integrating multiple social APIs with data visualization and automated reporting. In this dashboard we have website builder for automated website creation and management.",
     tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Chart.js"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/cdyniranjan7321/Business_Appointments_Dashboard",
+    live: "https://www.blueskyindustries.com.np/",
   },
   {
     title: "Real-Time Chat App",
     desc: "Messaging platform with file sharing, video calls, typing indicators, and end-to-end encryption.",
     tech: ["React", "Socket.io", "Express", "MongoDB", "WebRTC"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/niranjanchaudhary/chat-app",
+    live: "https://chat-app-demo.vercel.app",
   },
   {
     title: "Blog & CMS",
     desc: "Content management system with markdown editor, SEO tools, image optimization, and role-based access.",
     tech: ["Next.js", "Node.js", "MongoDB", "Cloudinary"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/niranjanchaudhary/blog-cms",
+    live: "https://blog-cms-demo.vercel.app",
   },
   {
     title: "Portfolio Generator",
     desc: "Dynamic portfolio builder where users can create and customize their developer portfolios with templates.",
     tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/niranjanchaudhary/portfolio-generator",
+    live: "https://portfolio-generator-demo.vercel.app",
   },
 ];
 
@@ -59,7 +60,7 @@ const Projects = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary">{"// "}</span>Projects
+            <span className="text-primary"></span>Projects
           </h2>
           <div className="w-20 h-0.5 bg-primary/40 mx-auto" />
         </motion.div>
@@ -78,10 +79,22 @@ const Projects = () => {
               <div className="flex items-center justify-between mb-4">
                 <Folder className="text-primary" size={28} />
                 <div className="flex gap-3">
-                  <a href={project.github} className="text-muted-foreground hover:text-primary transition-colors">
+                  <a 
+                    href={project.github} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                    aria-label={`GitHub repository for ${project.title}`}
+                  >
                     <Github size={18} />
                   </a>
-                  <a href={project.live} className="text-muted-foreground hover:text-primary transition-colors">
+                  <a 
+                    href={project.live} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                    aria-label={`Live demo for ${project.title}`}
+                  >
                     <ExternalLink size={18} />
                   </a>
                 </div>
@@ -91,13 +104,13 @@ const Projects = () => {
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1">{project.desc}</p>
               <div className="flex flex-wrap gap-2">
-                {project.tech.map((t) => (
+                {project.tech.map((t, idx) => (
                   <span
                     key={t}
                     className="text-xs font-display text-primary/70"
                   >
                     {t}
-                    {project.tech.indexOf(t) < project.tech.length - 1 && (
+                    {idx < project.tech.length - 1 && (
                       <span className="text-muted-foreground ml-2">·</span>
                     )}
                   </span>
