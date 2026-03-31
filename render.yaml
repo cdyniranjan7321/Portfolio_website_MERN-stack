@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: your-app-name
+    runtime: node
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.0
+      - key: NODE_ENV
+        value: production
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
