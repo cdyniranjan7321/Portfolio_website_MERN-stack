@@ -43,7 +43,7 @@ const projects = [
     desc: "Responsive portfolio website with project showcases, skill highlights, experience timeline, projects, and contact information.",
     tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
     github: "https://github.com/cdyniranjan7321/Portfolio_website_MERN-stack",
-    live: "https://www.niranjanchaudhary.com.np/",
+    live: "https://portfolio-website-mern-stack-37ii.onrender.com",
   },
 ];
 
