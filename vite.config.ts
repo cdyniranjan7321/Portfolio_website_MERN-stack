@@ -5,18 +5,35 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  server: {
+  // Remove or conditionally include server config (only for development)
+  server: mode === 'development' ? {
     host: "::",
     port: 8080,
     hmr: {
       overlay: false,
     },
-  },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  } : undefined,
+  plugins: [
+    react(), 
+    mode === "development" && componentTagger()
+  ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
     dedupe: ["react", "react-dom", "react/jsx-runtime", "react/jsx-dev-runtime"],
+  },
+  // Add build configuration for production
+  build: {
+    outDir: "dist",
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom'],
+          ui: ['framer-motion', 'lucide-react'],
+        },
+      },
+    },
   },
 }));
