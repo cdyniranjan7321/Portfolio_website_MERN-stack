@@ -4,7 +4,6 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
-    
     <section id="contact" className="py-24">
       <div className="container mx-auto px-6">
         <motion.div
