@@ -39,11 +39,11 @@ const projects = [
     live: "https://blog-cms-demo.vercel.app",
   },
   {
-    title: "Portfolio Generator",
-    desc: "Dynamic portfolio builder where users can create and customize their developer portfolios with templates.",
+    title: "Portfolio",
+    desc: "Responsive portfolio website with project showcases, skill highlights, experience timeline, projects, and contact information.",
     tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
-    github: "https://github.com/niranjanchaudhary/portfolio-generator",
-    live: "https://portfolio-generator-demo.vercel.app",
+    github: "https://github.com/cdyniranjan7321/Portfolio_website_MERN-stack",
+    live: "https://www.niranjanchaudhary.com.np/",
   },
 ];
 
