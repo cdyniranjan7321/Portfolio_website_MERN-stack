@@ -68,7 +68,7 @@ const Skills = () => {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {skillCategories.map((cat, catIdx) => (
-            
+
             <motion.div
               key={cat.title}
               initial={{ opacity: 0, y: 30 }}
@@ -98,6 +98,7 @@ const Skills = () => {
                 ))}
               </div>
             </motion.div>
+            
           ))}
         </div>
       </div>
