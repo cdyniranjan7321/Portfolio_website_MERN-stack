@@ -52,7 +52,7 @@ const Projects = () => {
     <section id="projects" className="py-24 bg-grid relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
       <div className="container mx-auto px-6 relative z-10">
-      
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -68,6 +68,7 @@ const Projects = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {projects.map((project, i) => (
+            
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 30 }}
