@@ -38,7 +38,6 @@ const Footer = () => {
           >
             <Twitter size={18} />
           </a>
-          
         </div>
       </div>
     </footer>
