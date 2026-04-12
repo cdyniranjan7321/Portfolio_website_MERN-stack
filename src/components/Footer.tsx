@@ -38,15 +38,6 @@ const Footer = () => {
           >
             <Twitter size={18} />
           </a>
-          {/* 
-          <a
-            href="mailto:cdyniranjan7321@gmail.com"
-            className="text-muted-foreground hover:text-primary transition-colors duration-300"
-            aria-label="Email"
-          >
-            <Mail size={18} />
-          </a>
-          */}
           
         </div>
       </div>
