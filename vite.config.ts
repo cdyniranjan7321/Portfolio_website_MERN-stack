@@ -13,9 +13,9 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    outDir: "dist", // Output directory for production build
-    sourcemap: false, // Disable sourcemaps for smaller build size
-    minify: "terser", // Minify for production
+    outDir: "dist",
+    sourcemap: false,
+    // Remove minify: "terser" - Vite uses esbuild by default
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
