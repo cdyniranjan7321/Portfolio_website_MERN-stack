@@ -83,6 +83,7 @@ const Skills = () => {
                   <div key={skill.name}>
                     <div className="flex justify-between text-sm mb-1.5">
                       <span className="text-secondary-foreground">{skill.name}</span>
+                      
                      {/* <span className="text-muted-foreground font-display text-xs">{skill.level}%</span> */}
                     </div>
                     <div className="h-1.5 rounded-full bg-muted overflow-hidden">
