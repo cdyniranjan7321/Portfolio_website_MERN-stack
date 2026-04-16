@@ -21,10 +21,10 @@ const Index = () => {
       <Skills />
       <Experience />
       <Projects />
-      <GitHubStats />        {/* NEW: Shows your GitHub activity */}
-       <Certifications />      {/* NEW: Shows your credentials */}
-        <Testimonials />        {/* NEW: Social proof */}
-      <BlogHighlight />       {/* NEW: Shows technical writing */}
+      {/* <GitHubStats />  */}       {/* NEW: Shows your GitHub activity */}
+      {/*  <Certifications /> */}     {/* NEW: Shows your credentials */}
+      {/* <Testimonials />  */}      {/* NEW: Social proof */}
+      {/* <BlogHighlight /> */}   {/* NEW: Shows technical writing */}
       <Contact />
       <Footer />
     </div>
