@@ -6,9 +6,9 @@ const GitHubStats = () => {
   const [stats, setStats] = useState({
     repos: 36,
     followers: 0,
-    totalStars: 0,
+    totalStars: 24,
     totalForks: 0,
-    contributions: 0,
+    contributions: 2826,
   });
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const GitHubStats = () => {
     { label: "Public Repos", value: stats.repos, icon: Code },
     { label: "Private Repos", value: stats.followers, icon: Users },
     { label: "Total Stars", value: stats.totalStars, icon: Star },
-    { label: "Contributions", value: stats.contributions, icon: GitPullRequest },
+    { label: "Contributions more than", value: stats.contributions, icon: GitPullRequest },
   ];
 
   const topRepos = [
