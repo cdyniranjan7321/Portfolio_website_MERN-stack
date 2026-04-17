@@ -35,8 +35,8 @@ const GitHubStats = () => {
   ];
 
   const topRepos = [
-    { name: "Project 1", stars: 12, language: "TypeScript", description: "Awesome project" },
-    { name: "Project 2", stars: 8, language: "React", description: "Another great project" },
+    { name: "Ecommerce Website", stars: 12, language: "React.js, Tailwind CSS, Node.js, Express.js, MongoDB", description: "Awesome pets shop ecommerce project" },
+    //{ name: "Project 2", stars: 8, language: "React", description: "Another great project" },
     // Add your actual top repos
   ];
 
@@ -107,7 +107,7 @@ const GitHubStats = () => {
                     </div>
                   </div>
                   <a
-                    href="#"
+                    href="https://github.com/cdyniranjan7321/Rivo_ecommerce-_website"
                     className="text-sm text-primary hover:underline"
                   >
                     View →
