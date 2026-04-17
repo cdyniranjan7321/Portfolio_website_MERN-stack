@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const GitHubStats = () => {
   const [stats, setStats] = useState({
-    repos: 0,
+    repos: 36,
     followers: 0,
     totalStars: 0,
     totalForks: 0,
@@ -13,15 +13,15 @@ const GitHubStats = () => {
 
   useEffect(() => {
     // Replace 'your-username' with your actual GitHub username
-    const username = "your-username";
+    const username = "https://github.com/cdyniranjan7321";
     
     fetch(`https://api.github.com/users/${username}`)
       .then((res) => res.json())
       .then((data) => {
         setStats((prev) => ({
           ...prev,
-          repos: data.public_repos || 0,
-          followers: data.followers || 0,
+          repos: data.public_repos || 25,
+          followers: data.followers || 11,
         }));
       })
       .catch((err) => console.error("GitHub API error:", err));
@@ -29,7 +29,7 @@ const GitHubStats = () => {
 
   const statItems = [
     { label: "Public Repos", value: stats.repos, icon: Code },
-    { label: "GitHub Followers", value: stats.followers, icon: Users },
+    { label: "Private Repos", value: stats.followers, icon: Users },
     { label: "Total Stars", value: stats.totalStars, icon: Star },
     { label: "Contributions", value: stats.contributions, icon: GitPullRequest },
   ];
