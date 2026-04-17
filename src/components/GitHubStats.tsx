@@ -126,7 +126,7 @@ const GitHubStats = () => {
           className="text-center mt-12"
         >
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/cdyniranjan7321"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-all duration-300"
