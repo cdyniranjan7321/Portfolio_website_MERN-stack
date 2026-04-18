@@ -7,8 +7,8 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Certifications from "@/components/Certifications";
 import GitHubStats from "@/components/GitHubStats";
+import Certifications from "@/components/Certifications";
 import Testimonials from "@/components/Testimonials";
 import BlogHighlight from "@/components/BlogHighlight";
 
@@ -21,7 +21,7 @@ const Index = () => {
       <Skills />
       <Experience />
       <Projects />
-      <GitHubStats />       {/* NEW: Shows your GitHub activity */}
+      <GitHubStats />
       {/*  <Certifications /> */}     {/* NEW: Shows your credentials */}
       {/* <Testimonials />  */}      {/* NEW: Social proof */}
       {/* <BlogHighlight /> */}   {/* NEW: Shows technical writing */}
