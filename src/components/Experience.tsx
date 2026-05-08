@@ -12,7 +12,7 @@ const experiences = [
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
    {
-    role: "Social media handler",
+    role: "Social Media Handler",
     company: "Little Heart Pet Shop",
     logo: "/images/Littleheartpetshop_logo.png", // Add your logo path
     period: "2025 – Present",
