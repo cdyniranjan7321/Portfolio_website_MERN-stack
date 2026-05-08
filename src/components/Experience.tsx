@@ -7,9 +7,17 @@ const experiences = [
     role: "Full Stack Developer",
     company: "Bytesoft Nepal Software Company",
     logo: "/images/bytesoft-logo.png", // Add your logo path
-    period: "2024 – Present",
+    period: "February 2024 – Present",
     desc: "Building and maintaining large-scale web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture.",
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
+  },
+  {
+    role: "Inventory Manager",
+    company: "BlueSky Industries",
+    logo: "/images/Blue_Sky_industry_logo.png", // Add your logo path
+    period: "2025 – Present",
+    desc: "Tracks inventory levels, orders, sales, and deliveries. It can also be used in the manufacturing industry to create a work order, bill of materials and other production-related documents.",
+    tech: [""],
   },
   {
     role: "React Developer",
@@ -22,7 +30,7 @@ const experiences = [
   {
     role: "Junior Web Developer(Internship)",
     company: "Aakar eSolution",
-    logo: "/images/aakar-logo.jpg",
+    logo: "/images/aakar-logo.jpg", // Add your logo path
     period: "2023",
     desc: "Built RESTful APIs and contributed to frontend features. Collaborated in agile team to deliver MVP products on tight deadlines.",
     tech: ["JavaScript", "React.js", "Express.js", "MongoDB", "CSS/TailwindCSS"],
