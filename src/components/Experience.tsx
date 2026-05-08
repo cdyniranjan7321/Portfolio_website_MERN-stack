@@ -2,35 +2,41 @@
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
 
+// Import images directly
+import bytesoftLogo from "/images/bytesoft-logo.png";
+import littleheartLogo from "/images/Littleheartpetshop_logo.png";
+import blueskyLogo from "/images/Blue_Sky_industry_logo.png";
+import aakarLogo from "/images/aakar-logo.jpg";
+
 const experiences = [
   {
     role: "Full Stack Developer",
     company: "Bytesoft Nepal Software Company",
-    logo: "/images/bytesoft-logo.png", // Add your logo path
+    logo: bytesoftLogo,
     period: "February 2024 – Present",
     desc: "Building and maintaining large-scale web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture.",
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
-   {
+  {
     role: "Social Media Handler",
     company: "Little Heart Pet Shop",
-    logo: "/images/Littleheartpetshop_logo.png", // Add your logo path
+    logo: littleheartLogo,
     period: "2025 – Present",
     desc: "Manages social media accounts, creates engaging content, and interacts with followers to enhance brand presence and drive traffic to the online store.",
-    tech: [""],
+    tech: [],
   },
   {
     role: "Inventory Manager",
     company: "BlueSky Industries",
-    logo: "/images/Blue_Sky_industry_logo.png", // Add your logo path
+    logo: blueskyLogo,
     period: "2025 – Present",
     desc: "Tracks inventory levels, orders, sales, and deliveries. It can also be used in the manufacturing industry to create a work order, bill of materials and other production-related documents.",
-    tech: [""],
+    tech: [],
   },
   {
     role: "React Developer",
     company: "Aakar eSolution",
-    logo: "/images/aakar-logo.jpg", // Add your logo path
+    logo: aakarLogo,
     period: "2023 – 2024",
     desc: "Developed responsive, high-performance UIs for client projects. Improved page load times by 40% through code splitting and optimization.",
     tech: ["React.js", "Next.js", "Tailwind CSS", "Redux", "TypeScript", "Prisma", "postgreSQL"],
@@ -38,7 +44,7 @@ const experiences = [
   {
     role: "Junior Web Developer(Internship)",
     company: "Aakar eSolution",
-    logo: "/images/aakar-logo.jpg", // Add your logo path
+    logo: aakarLogo,
     period: "2023",
     desc: "Built RESTful APIs and contributed to frontend features. Collaborated in agile team to deliver MVP products on tight deadlines.",
     tech: ["JavaScript", "React.js", "Express.js", "MongoDB", "CSS/TailwindCSS"],
@@ -63,7 +69,6 @@ const Experience = () => {
         </motion.div>
 
         <div className="max-w-3xl mx-auto relative">
-        
           {/* Timeline line */}
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px" />
 
@@ -93,12 +98,16 @@ const Experience = () => {
                 <h3 className="font-display text-lg font-semibold mb-1">{exp.role}</h3>
                 
                 {/* Company with logo */}
-                <div className={`flex items-center gap-2 mb-3 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
+                <div className={`flex items-center gap-3 mb-3 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
                   {exp.logo && (
                     <img 
                       src={exp.logo} 
                       alt={`${exp.company} logo`}
                       className="w-11 h-11 object-contain rounded-sm"
+                      onError={(e) => {
+                        console.error(`Failed to load logo for ${exp.company}`);
+                        e.currentTarget.style.display = 'none';
+                      }}
                     />
                   )}
                   <p className="text-primary/70 text-sm font-display">{exp.company}</p>
@@ -106,7 +115,7 @@ const Experience = () => {
                 
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">{exp.desc}</p>
                 <div className={`flex flex-wrap gap-2 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
-                  {exp.tech.map((t) => (
+                  {exp.tech.map((t) => t && (
                     <span
                       key={t}
                       className="px-2.5 py-1 text-xs font-display rounded-md bg-muted text-muted-foreground"
