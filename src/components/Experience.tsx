@@ -14,7 +14,7 @@ const experiences = [
   {
     role: "React Developer",
     company: "Aakar eSolution",
-   // logo: "/images/aakar-logo.png", // Add your logo path
+   // logo: "/images/aakar-logo.png",
     period: "2023 – 2024",
     desc: "Developed responsive, high-performance UIs for client projects. Improved page load times by 40% through code splitting and optimization.",
     tech: ["React", "Next.js", "Tailwind CSS", "Redux"],
@@ -22,7 +22,7 @@ const experiences = [
   {
     role: "Junior Web Developer(Internship)",
     company: "Aakar eSolution",
-    //logo: "/images/aakar-logo.png", // Add your logo path
+    //logo: "/images/aakar-logo.png",
     period: "2023",
     desc: "Built RESTful APIs and contributed to frontend features. Collaborated in agile team to deliver MVP products on tight deadlines.",
     tech: ["JavaScript", "Express.js", "MongoDB", "HTML/CSS"],
