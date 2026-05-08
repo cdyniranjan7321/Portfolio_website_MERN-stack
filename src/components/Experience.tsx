@@ -11,6 +11,14 @@ const experiences = [
     desc: "Building and maintaining large-scale web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture.",
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
+   {
+    role: "Social Media Handler",
+    company: "Little Heart Pet Shop",
+    logo: "/images/Littleheartpetshop_logo.png", // Add your logo path
+    period: "2025 – Present",
+    desc: "Manages social media accounts, creates engaging content, and interacts with followers to enhance brand presence and drive traffic to the online store.",
+    tech: [""],
+  },
   {
     role: "Inventory Manager",
     company: "BlueSky Industries",
@@ -55,6 +63,7 @@ const Experience = () => {
         </motion.div>
 
         <div className="max-w-3xl mx-auto relative">
+        
           {/* Timeline line */}
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px" />
 
