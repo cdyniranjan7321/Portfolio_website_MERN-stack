@@ -19,6 +19,7 @@ const skillCategories = [
     skills: [
       { name: "Node.js", level: 90 },
       { name: "Express.js", level: 90 },
+      { name: "Prisma", level: 80 },
       { name: "REST APIs", level: 92 },
       { name: "GraphQL", level: 70 },
       { name: "Socket.io", level: 75 },
