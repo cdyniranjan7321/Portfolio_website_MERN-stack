@@ -44,11 +44,12 @@ const Experience = () => {
         </motion.div>
 
         <div className="max-w-3xl mx-auto relative">
-          
+
           {/* Timeline line */}
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px" />
 
           {experiences.map((exp, i) => (
+            
             <motion.div
               key={i}
               initial={{ opacity: 0, x: i % 2 === 0 ? -30 : 30 }}
