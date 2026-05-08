@@ -6,6 +6,7 @@ const experiences = [
   {
     role: "Full Stack Developer",
     company: "Bytesoft Nepal Software Company",
+    logo: "/images/bytesoft-logo.png", // Add your logo path
     period: "2024 – Present",
     desc: "Building and maintaining large-scale web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture.",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
@@ -13,6 +14,7 @@ const experiences = [
   {
     role: "React Developer",
     company: "Aakar eSolution",
+   // logo: "/images/aakar-logo.png", // Add your logo path
     period: "2023 – 2024",
     desc: "Developed responsive, high-performance UIs for client projects. Improved page load times by 40% through code splitting and optimization.",
     tech: ["React", "Next.js", "Tailwind CSS", "Redux"],
@@ -20,6 +22,7 @@ const experiences = [
   {
     role: "Junior Web Developer(Internship)",
     company: "Aakar eSolution",
+    //logo: "/images/aakar-logo.png", // Add your logo path
     period: "2023",
     desc: "Built RESTful APIs and contributed to frontend features. Collaborated in agile team to deliver MVP products on tight deadlines.",
     tech: ["JavaScript", "Express.js", "MongoDB", "HTML/CSS"],
@@ -44,12 +47,10 @@ const Experience = () => {
         </motion.div>
 
         <div className="max-w-3xl mx-auto relative">
-
           {/* Timeline line */}
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px" />
 
           {experiences.map((exp, i) => (
-            
             <motion.div
               key={i}
               initial={{ opacity: 0, x: i % 2 === 0 ? -30 : 30 }}
@@ -73,7 +74,19 @@ const Experience = () => {
                   <span className="font-display text-xs tracking-wider uppercase">{exp.period}</span>
                 </div>
                 <h3 className="font-display text-lg font-semibold mb-1">{exp.role}</h3>
-                <p className="text-primary/70 text-sm font-display mb-3">{exp.company}</p>
+                
+                {/* Company with logo */}
+                <div className={`flex items-center gap-2 mb-3 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
+                  {exp.logo && (
+                    <img 
+                      src={exp.logo} 
+                      alt={`${exp.company} logo`}
+                      className="w-11 h-11 object-contain rounded-sm"
+                    />
+                  )}
+                  <p className="text-primary/70 text-sm font-display">{exp.company}</p>
+                </div>
+                
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">{exp.desc}</p>
                 <div className={`flex flex-wrap gap-2 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
                   {exp.tech.map((t) => (
