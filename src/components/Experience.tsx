@@ -5,6 +5,7 @@ import bytesoftLogo from "/images/Bytesoft-logo.png";
 import littleheartLogo from "/images/Littleheartpetshop_logo.png";
 import blueskyLogo from "/images/Blue_Sky_industry_Logo.png";
 import aakarLogo from "/images/aakar-logo.jpg";
+import sochcollegeLogo from "/images/Soch_college_of_IT.png";
 
 const experiences = [
   {
@@ -44,7 +45,15 @@ const experiences = [
     company: "Aakar eSolution",
     logo: aakarLogo,
     period: "2023",
-    desc: "Built RESTful APIs and contributed to frontend features. Collaborated in agile team to deliver MVP products on tight deadlines.",
+    desc: "Built Blood management system using RESTful APIs and contributed to both frontend and backend features. Collaborated in agile team to deliver MVP products on tight deadlines.",
+    tech: ["JavaScript", "React.js", "Express.js", "MongoDB", "CSS/TailwindCSS"],
+  },
+   {
+    role: "Full stack Developer(College Project)",
+    company: "Soch college of IT",
+    logo: sochcollegeLogo,
+    period: "2022",
+    desc: "Developed and maintained Restaurant web applications using MERN stack. Implemented user authentication, real-time order tracking, CURD operations and responsive design.",
     tech: ["JavaScript", "React.js", "Express.js", "MongoDB", "CSS/TailwindCSS"],
   },
 ];
