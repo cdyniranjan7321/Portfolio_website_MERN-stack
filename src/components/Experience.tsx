@@ -13,7 +13,7 @@ const experiences = [
     company: "Bytesoft Nepal Software Company",
     logo: bytesoftLogo,
     period: "February 2024 – Present",
-    desc: "Building and maintaining large-scale web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture.",
+    desc: "Building and maintaining large-scale Ecommerce and pets shop, Business Appointment system, Baber shop web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture.",
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
   {
@@ -37,7 +37,7 @@ const experiences = [
     company: "Aakar eSolution",
     logo: aakarLogo,
     period: "2023 – 2024",
-    desc: "Developed responsive, high-performance UIs for client projects. Improved page load times by 40% through code splitting and optimization.",
+    desc: "Developed Quiz App with responsive, high-performance UIs for client projects. Improved page load times by 40% through code splitting and optimization.",
     tech: ["React.js", "Next.js", "Tailwind CSS", "Redux", "TypeScript", "Prisma", "postgreSQL"],
   },
   {
