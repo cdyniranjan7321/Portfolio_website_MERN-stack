@@ -10,10 +10,10 @@ import sochcollegeLogo from "/images/Soch_college_of_IT.png";
 const experiences = [
   {
     role: "Full Stack Developer",
-    company: "Bytesoft Nepal Software Company",
+    company: "Bytesoft Nepal",
     logo: bytesoftLogo,
     period: "February 2024 – Present",
-    desc: "Building and maintaining large-scale Ecommerce and pets shop, Business Appointment system, Baber shop web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture. Also works on cPanel for Deploying and Hosting the web applications.",
+    desc: "Building and maintaining large-scale Ecommerce and pets shop, Business Appointment system, Barber shop web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture. Also works on cPanel for Deploying and Hosting the web applications.",
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
   {
