@@ -90,6 +90,7 @@ const Experience = () => {
                 i % 2 === 0 ? "md:pr-12 md:text-right" : "md:ml-auto md:pl-12"
               }`}
             >
+            
               {/* Dot */}
               <div
                 className={`absolute top-1 left-4 md:left-auto ${
