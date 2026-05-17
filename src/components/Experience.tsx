@@ -96,7 +96,6 @@ const Experience = () => {
                   i % 2 === 0 ? "md:right-[-7px]" : "md:left-[-7px]"
                 } w-3.5 h-3.5 rounded-full bg-primary border-2 border-background shadow-[var(--shadow-glow-sm)]`}
               />
-
               <div className="p-5 rounded-xl bg-card border border-border hover:border-glow transition-all duration-300">
                 <div className="flex items-center gap-2 mb-2 text-primary">
                   <Briefcase size={16} />
