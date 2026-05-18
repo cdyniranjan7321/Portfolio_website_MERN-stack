@@ -28,6 +28,7 @@ const skillCategories = [
       { name: "PHP", level: 60 },
     ],
   },
+
   {
     title: "Database & Tools",
     skills: [
@@ -40,6 +41,7 @@ const skillCategories = [
       { name: "CI/CD", level: 70 },
     ],
   },
+  
   {
     title: "Deploying and Hosting",
     skills: [
