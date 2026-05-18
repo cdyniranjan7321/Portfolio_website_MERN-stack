@@ -14,6 +14,7 @@ const skillCategories = [
       { name: "Redux", level: 85 },
     ],
   },
+  
   {
     title: "Backend",
     skills: [
