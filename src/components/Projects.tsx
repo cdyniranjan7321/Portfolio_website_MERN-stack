@@ -10,6 +10,7 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Rivo_ecommerce-_website",
     live: "https://shop.littleheartpetshop.com.np/",
   },
+
   {
     title: "Baber shop",
     desc: "A barber shop website with online Appointment booking, service listings, staffselection, Time&Date selection and customer reviews",
@@ -17,6 +18,7 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Barber_shop",
     live: "https://practise.blueskyindustries.com.np/",
   },
+
   {
     title: "Business Appointments Dashboard",
     desc: "Analytics dashboard integrating multiple social APIs with data visualization and automated reporting. In this dashboard we have website builder for automated website creation and management.",
@@ -24,6 +26,7 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Business_Appointments_Dashboard",
     live: "https://www.blueskyindustries.com.np/",
   },
+
   {
     title: "Rasa Restaurant App",
     desc: "A restaurant website with real-time order tracking, menu management, and customer reviews. It also has a chatbot for customer support and reservation management.",
@@ -31,6 +34,7 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Restaurant-App",
     live: "https://restaurant-app-mgcz.onrender.com",
   },
+
   {
     title: "Blog & Consultancy CMS",
     desc: "Consultancy website with Content management system",
@@ -38,6 +42,7 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/consultancy_website",
     live: "https://consultancy-website-zt2c.onrender.com",
   },
+  
   {
     title: "Portfolio",
     desc: "Responsive portfolio website with project showcases, skill highlights, experience timeline, projects, and contact information.",
