@@ -32,7 +32,7 @@ A modern, responsive personal portfolio website built with the MERN stack. It sh
 - MongoDB
 
 ### Hosting & Deployment
-- Hostinger (or your preferred platform)
+- Render
 
 ## 🚀 Live Demo
 
