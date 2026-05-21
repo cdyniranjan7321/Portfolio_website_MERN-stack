@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { useParams, useNavigate } from "react-router-dom";
 import { Github, ExternalLink, ArrowLeft, Calendar, Users, Target, Code, Rocket, CheckCircle } from "lucide-react";
