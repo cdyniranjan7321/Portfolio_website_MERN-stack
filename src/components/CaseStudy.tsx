@@ -75,16 +75,18 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Business_Appointments_Dashboard",
     live: "https://www.blueskyindustries.com.np/",
     fullDescription: "A comprehensive business Appointments analytics dashboard that aggregates data from multiple business platforms and provides actionable insights through beautiful visualizations. User can also create and manage their business website with the help of website builder. This dashboard empowers businesses to make data-driven decisions and optimize their online presence.",
-    challenge: "Businesses needed a unified view of their own business dahboard. Manual data aggregation was time-consuming and error-prone.",
-    solution: "I developed a TypeScript-based React application with Node.js backend, integrating various social media APIs. Chart.js provides interactive data visualizations, while PostgreSQL ensures reliable data storage.",
+    challenge: "Businesses needed a unified platform to track appointments, analyze customer behavior, and manage their online presence. The challenge was to integrate various APIs, handle large datasets efficiently, and present insights in an easily digestible format.",
+    solution: "I developed a React and TypeScript frontend with Chart.js for data visualization, and a Node.js backend with MongoDB for data storage. The dashboard integrates with multiple APIs to fetch appointment data, customer interactions, and website analytics. The website builder allows users to create and manage their business websites with ease.",
     results: [
       "Saved 15+ hours per week on reporting",
-      "Improved data accuracy by 95%",
+      "Improved data accuracy by 65%",
       "Enabled data-driven decision making",
-      "Supported 50+ concurrent business users"
+      "Supported 15+ concurrent business users"
     ],
     features: [
-      "Multi-platform social media integration",
+      "Multi-platform API integration",
+      "Advanced data visualization",
+      "Auto website builder with customizable templates",
       "Customizable dashboard layouts",
       "Automated report generation",
       "Real-time data synchronization",
