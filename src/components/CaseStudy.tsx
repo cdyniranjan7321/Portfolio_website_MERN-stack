@@ -12,12 +12,12 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Rivo_ecommerce-_website",
     live: "https://shop.littleheartpetshop.com.np/",
     fullDescription: "Little Heart Pet Shop is a comprehensive e-commerce platform designed specifically for pet shops. The platform provides a seamless shopping experience for pet owners while offering powerful management tools for shop administrators.",
-    challenge: "The pet shop needed a digital presence that could handle real-time inventory management, secure payment processing, and provide an intuitive interface for both customers and staff. Managing pet products with varying specifications (size, breed, age-appropriateness) required a flexible product categorization system.",
+    challenge: "The pet shop needed a digital presence that could handle real-time inventory management, secure payment processing, and provide an intuitive interface for both customers and staff. Managing pet products with varying specifications (size, color, stock level etc.) required a flexible product categorization system.",
     solution: "I developed a full-stack MERN application with Redux for state management. The system features a responsive frontend with TailwindCSS, a robust backend API with Node.js/Express, and MongoDB for flexible data storage. Cloudinary handles image optimization, while SMTP integration manages order confirmations and notifications.",
     results: [
-      "Increased online sales by 150% within first 3 months",
-      "Reduced inventory management time by 60%",
-      "Successfully processed 500+ orders in first month",
+      "Increased online sales by 53% within first 3 months",
+      "Reduced inventory management time by 90%",
+      "Successfully processed 50+ orders in first month",
       "Improved customer satisfaction with real-time order tracking"
     ],
     features: [
@@ -27,6 +27,10 @@ const projects = [
       "Secure payment gateway integration",
       "Real-time inventory tracking",
       "Admin dashboard with analytics",
+      "product management with image uploads",
+      "category management with flexible attributes",
+      "order management system with status updates",
+      "multiple Admin roles with different permissions",
       "Order management system",
       "Email notifications for orders"
     ],
@@ -60,7 +64,7 @@ const projects = [
       "Analytics dashboard"
     ],
     timeline: "2.5 months",
-    role: "Lead Developer",
+    role: "Full Stack Developer",
     category: "Booking System"
   },
   {
