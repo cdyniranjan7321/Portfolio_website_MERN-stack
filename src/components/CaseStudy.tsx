@@ -123,7 +123,7 @@ const projects = [
       "Menu management system",
       "Analytics dashboard for sales and customer insights"
     ],
-    timeline: "1 months",
+    timeline: "2 months",
     role: "Full Stack Developer",
     category: "Food & Beverage"
   },
