@@ -102,14 +102,14 @@ const projects = [
     id: "rasa-restaurant-app",
     title: "Rasa Restaurant App",
     desc: "A restaurant website with real-time order tracking, menu management, and customer reviews. It also has a chatbot for customer support and reservation management.",
-    tech: ["React", "Socket.io", "Express", "MongoDB", "WebRTC"],
+    tech: ["React", "Socket.io", "Express", "MongoDB"],
     github: "https://github.com/cdyniranjan7321/Restaurant-App",
     live: "https://restaurant-app-mgcz.onrender.com",
     fullDescription: "A complete restaurant management solution with online ordering, table reservations, and integrated chatbot for customer support.",
     challenge: "Restaurants needed to adapt to digital ordering while maintaining quality customer service. The solution needed to handle high traffic during peak hours.",
-    solution: "Built with React and Socket.io for real-time updates, featuring a WebRTC-based video calling system for customer support. The system manages orders, reservations, and menu updates seamlessly.",
+    solution: "Built with React and Socket.io for real-time updates. The system manages orders, reservations, and menu updates seamlessly.",
     results: [
-      "Increased online orders by 200%",
+      "Increased online orders by 30%",
       "Reduced wait times by 50%",
       "Improved customer satisfaction rating to 4.8/5",
       "Automated 70% of customer inquiries"
@@ -121,7 +121,7 @@ const projects = [
       "AI-powered chatbot",
       "Customer review management",
       "Menu management system",
-      "Video call support"
+      "Analytics dashboard for sales and customer insights"
     ],
     timeline: "1 months",
     role: "Full Stack Developer",
@@ -152,7 +152,7 @@ const projects = [
       "Newsletter system",
       "Contact form management"
     ],
-    timeline: "2 months",
+    timeline: "1 months",
     role: "Solo Developer",
     category: "Content Management"
   },
