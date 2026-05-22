@@ -164,10 +164,9 @@ const projects = [
     challenge: "Create a visually appealing portfolio that effectively communicates technical expertise while maintaining fast load times and smooth animations.",
     solution: "Built with React and Framer Motion for smooth animations, Tailwind CSS for styling, and Express/MongoDB backend for dynamic content management.",
     results: [
-      "Achieved 95+ Lighthouse score",
-      "Increased recruiter engagement by 120%",
+      "Increased recruiter engagements.",
       "Showcased 6 major projects effectively",
-      "Received positive feedback from 50+ visitors"
+      "Received positive feedback from visitors"
     ],
     features: [
       "Responsive design",
@@ -175,8 +174,7 @@ const projects = [
       "Project filtering system",
       "Contact form with validation",
       "Skills visualization",
-      "Experience timeline",
-      "Dark/Light mode toggle"
+      "Experience timeline"
     ],
     timeline: "1.5 months",
     role: "Designer & Developer",
