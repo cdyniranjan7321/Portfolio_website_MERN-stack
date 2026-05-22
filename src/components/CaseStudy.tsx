@@ -138,14 +138,11 @@ const projects = [
     challenge: "Consultancy firm needed a platform to showcase expertise through content marketing while maintaining brand consistency.",
     solution: "TypeScript-based full-stack application with secure admin panel, rich text editing, and media management through Cloudinary.",
     results: [
-      "Increased organic traffic by 180%",
+      "Increased organic traffc.",
       "Generated 50+ qualified leads monthly",
-      "Reduced content publishing time by 75%",
-      "Improved SEO rankings significantly"
+      "Reduced content publishing time by 65%",
     ],
     features: [
-      "WYSIWYG content editor",
-      "SEO optimization tools",
       "Media library management",
       "User role management",
       "Analytics integration",
@@ -153,7 +150,7 @@ const projects = [
       "Contact form management"
     ],
     timeline: "1 months",
-    role: "Solo Developer",
+    role: "Full Stack Developer",
     category: "Content Management"
   },
   {
