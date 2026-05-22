@@ -123,8 +123,8 @@ const projects = [
       "Menu management system",
       "Video call support"
     ],
-    timeline: "3 months",
-    role: "Frontend Lead",
+    timeline: "1 months",
+    role: "Full Stack Developer",
     category: "Food & Beverage"
   },
   {
