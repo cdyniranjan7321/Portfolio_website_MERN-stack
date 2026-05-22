@@ -14,7 +14,7 @@ const projects = [
   },
   {
     id: "barber-shop",
-    title: "Baber shop",
+    title: "Barber shop",
     desc: "A barber shop website with online Appointment booking, service listings, staffselection, Time&Date selection and customer reviews",
     tech: ["Next.js", "Express.js", "Socket.io", "MongoDB"],
     github: "https://github.com/cdyniranjan7321/Barber_shop",
