@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Facebook } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -59,6 +59,13 @@ const Hero = () => {
                 icon: Github, 
                 href: "https://github.com/cdyniranjan7321", 
                 label: "GitHub",
+                target: "_blank",
+                rel: "noopener noreferrer"
+              },
+               { 
+                icon: Facebook, 
+                href: "https://www.facebook.com/niranjan.cdy.732",
+                label: "Facebook",
                 target: "_blank",
                 rel: "noopener noreferrer"
               },
