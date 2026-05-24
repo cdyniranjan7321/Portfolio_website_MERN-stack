@@ -71,7 +71,7 @@ const Hero = () => {
               },
               { 
                 icon: Linkedin, 
-                href: "https://linkedin.com/in/niranjanchaudhary", 
+                href: "https://www.linkedin.com/in/niranjan-chaudhary-75482136a", 
                 label: "LinkedIn",
                 target: "_blank",
                 rel: "noopener noreferrer"
