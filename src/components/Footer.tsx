@@ -3,7 +3,6 @@ import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
   return (
     <footer className="py-8 border-t border-border">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
