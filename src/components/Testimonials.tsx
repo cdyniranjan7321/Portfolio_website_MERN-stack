@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
-import { AnimatePresence } from "framer-motion"; // Add this to imports
+import { AnimatePresence } from "framer-motion";
 
 const testimonials = [
   {
