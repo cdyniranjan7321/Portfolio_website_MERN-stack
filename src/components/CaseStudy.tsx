@@ -101,7 +101,7 @@ const projects = [
   {
     id: "rasa-restaurant-app",
     title: "Rasa Restaurant App",
-    desc: "A restaurant website with real-time order tracking, menu management, and customer reviews. It also has a chatbot for customer support and reservation management.",
+    desc: "A restaurant website with real-time order tracking, menu management, and customer reviews. It also has a chatbot for customer support, Chef's table and reservation management.",
     tech: ["React", "Socket.io", "Express", "MongoDB"],
     github: "https://github.com/cdyniranjan7321/Restaurant-App",
     live: "https://restaurant-app-mgcz.onrender.com",
@@ -117,6 +117,7 @@ const projects = [
     features: [
       "Online food ordering",
       "Table reservation system",
+      "Chef's table management",
       "Real-time order tracking",
       "AI-powered chatbot",
       "Customer review management",
