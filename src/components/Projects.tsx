@@ -76,6 +76,9 @@ const Projects = () => {
             <span className="text-primary"></span>Projects
           </h2>
           <div className="w-20 h-0.5 bg-primary/40 mx-auto" />
+         <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+            Here is my few projects that I have worked on. Click on any project to read the case study and learn more about the challenges, solutions, and technologies used in each project.
+          </p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
