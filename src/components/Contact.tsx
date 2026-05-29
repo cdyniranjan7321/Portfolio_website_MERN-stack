@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone, Send, Loader2, X, CheckCircle } from "lucide-react";
 import { useState } from "react";
@@ -151,7 +152,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="John Doe"
+                  placeholder="Enter Your Name"
                   className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
                 />
               </div>
@@ -170,7 +171,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="john@example.com"
+                  placeholder="Enter Your Email"
                   className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
                 />
               </div>
