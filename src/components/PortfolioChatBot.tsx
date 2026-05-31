@@ -29,7 +29,7 @@ const PortfolioChatBot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: "👋 Hi there! I'm your AI assistant for this portfolio. I can tell you all about my skills, experience, projects, and how to connect with me. What would you like to know?",
+      text: "👋 Hi there! I'm Niranjan your AI assistant for this portfolio. I can tell you all about my skills, experience, projects, and how to connect with me. What would you like to know?",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -45,30 +45,30 @@ const PortfolioChatBot = () => {
   const portfolioData = {
     name: "Niranjan Chaudhary",
     title: "Full Stack Developer",
-    location: "Nepal",
-    email: "your.email@example.com",
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
+    location: "Ranipauwa-11, Pokhara, Nepal",
+    email: "cdyniranjan7321@gmail.com",
+    github: "https://github.com/cdyniranjan7321",
+    linkedin: "https://www.linkedin.com/in/niranjan-chaudhary-75482136a",
     resume: "/resume.pdf",
     
     skills: {
-      frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
-      backend: ["Node.js", "Python", "Django", "Express", "PostgreSQL"],
+      frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite"],
+      backend: ["Node.js", "PHP", "Express.js", "MongoDB", "MySQL", "PostgreSQL"],
       tools: ["Git", "Docker", "AWS", "VS Code", "Figma"],
-      languages: ["JavaScript", "TypeScript", "Python", "Java", "SQL"]
+      languages: ["JavaScript", "TypeScript", "PHP"]
     },
     
     experience: [
       {
-        title: "Senior Frontend Developer",
-        company: "Tech Company Name",
-        period: "2022 - Present",
-        description: "Leading frontend development, building scalable React applications, mentoring junior developers."
+        title: "Full Stack Developer",
+        company: "Bytesoft Nepal",
+        period: "2024 - Present",
+        description: "Leading full-stack development, building scalable React applications, mentoring junior developers."
       },
       {
-        title: "Full Stack Developer",
-        company: "Previous Company",
-        period: "2020 - 2022",
+        title: "React Developer",
+        company: "Aakar eSolution",
+        period: "2023 - 2024",
         description: "Developed full-stack web applications, integrated REST APIs, optimized database queries."
       }
     ],
@@ -92,17 +92,17 @@ const PortfolioChatBot = () => {
     ],
     
     education: {
-      degree: "Bachelor's in Computer Science",
-      university: "University Name",
+      degree: "Bachelor's in Computer Science and Information Technology(BSC.CSIT)",
+      university: "Soch College of IT",
       year: "2024",
       achievements: "Graduated with honors, Dean's list"
     },
     
     contact: {
-      email: "your.email@example.com",
-      github: "https://github.com/yourusername",
-      linkedin: "https://linkedin.com/in/yourusername",
-      twitter: "https://twitter.com/yourusername"
+      email: "cdyniranjan7321@gmail.com",
+      github: "https://github.com/cdyniranjan7321",
+      linkedin: "https://www.linkedin.com/in/niranjan-chaudhary-75482136a",
+      twitter: "https://x.com/nsrrfc"
     }
   };
 
@@ -127,14 +127,14 @@ const PortfolioChatBot = () => {
     
     // Skills
     if (msg.match(/(skills|technologies|tech stack|what can you do|programming languages|tools)/i)) {
-      return `💻 Here's my tech stack:\n\n**Frontend:** ${portfolioData.skills.frontend.join(', ')}\n**Backend:** ${portfolioData.skills.backend.join(', ')}\n**Tools & Others:** ${portfolioData.skills.tools.join(', ')}\n**Languages:** ${portfolioData.skills.languages.join(', ')}\n\nI'm always learning new technologies! Which area interests you most? 🎯`;
+      return `💻 Here's my tech stack:\n\nFrontend: ${portfolioData.skills.frontend.join(', ')}\nBackend: ${portfolioData.skills.backend.join(', ')}\nTools & Others: ${portfolioData.skills.tools.join(', ')}\nLanguages: ${portfolioData.skills.languages.join(', ')}\n\nI'm always learning new technologies! Which area interests you most? 🎯`;
     }
     
     // Experience / Work history
     if (msg.match(/(experience|work history|job|career|where have you worked|professional)/i)) {
-      let response = "💼 **Work Experience:**\n\n";
+      let response = "💼 Work Experience:\n\n";
       portfolioData.experience.forEach((exp, idx) => {
-        response += `**${exp.title}** at ${exp.company}\n📅 ${exp.period}\n${exp.description}\n\n`;
+        response += `${exp.title} at ${exp.company}\n📅 ${exp.period}\n${exp.description}\n\n`;
       });
       response += "Each role taught me valuable lessons in software architecture, team collaboration, and delivering quality products. Want to know about my projects? 🚀";
       return response;
@@ -142,9 +142,9 @@ const PortfolioChatBot = () => {
     
     // Projects
     if (msg.match(/(projects|portfolio|work samples|what have you built|show me your work)/i)) {
-      let response = "🎨 **Featured Projects:**\n\n";
+      let response = "🎨 Featured Projects:\n\n";
       portfolioData.projects.forEach((project, idx) => {
-        response += `**${project.name}**\n🔧 ${project.tech}\n📝 ${project.description}\n\n`;
+        response += `${project.name}\n🔧 ${project.tech}\n📝 ${project.description}\n\n`;
       });
       response += "Each project showcases my problem-solving skills and attention to detail. Want to see more details about any specific project? 🔍";
       return response;
@@ -152,47 +152,47 @@ const PortfolioChatBot = () => {
     
     // Education
     if (msg.match(/(education|degree|university|college|studied|qualification)/i)) {
-      return `🎓 **Education:**\n\n**${portfolioData.education.degree}**\n${portfolioData.education.university}\n📅 ${portfolioData.education.year}\n✨ ${portfolioData.education.achievements}\n\nContinuous learning is my mantra! I regularly take online courses and stay updated with industry trends. 📚`;
+      return `🎓 Education:\n\n${portfolioData.education.degree}\n${portfolioData.education.university}\n📅 ${portfolioData.education.year}\n✨ ${portfolioData.education.achievements}\n\nContinuous learning is my mantra! I regularly take online courses and stay updated with industry trends. 📚`;
     }
     
     // Contact / Hire / Reach out
     if (msg.match(/(contact|reach|email|get in touch|hire|work with you|collaborate)/i)) {
-      return `📬 **Let's Connect!**\n\nYou can reach ${portfolioData.name} through:\n\n📧 **Email:** ${portfolioData.contact.email}\n💼 **LinkedIn:** ${portfolioData.contact.linkedin}\n🐙 **GitHub:** ${portfolioData.contact.github}\n\nI'm open to freelance opportunities, collaborations, and interesting projects! Feel free to reach out anytime! 🚀`;
+      return `📬 Let's Connect!\n\nYou can reach ${portfolioData.name} through:\n\n📧 Email: ${portfolioData.contact.email}\n💼 LinkedIn: ${portfolioData.contact.linkedin}\n🐙 GitHub: ${portfolioData.contact.github}\n\nI'm open to freelance opportunities, collaborations, and interesting projects! Feel free to reach out anytime! 🚀`;
     }
     
     // Resume / CV
     if (msg.match(/(resume|cv|download resume|hire|qualifications)/i)) {
-      return `📄 **Resume/CV**\n\nYou can download my detailed resume here: ${portfolioData.resume}\n\nIt includes comprehensive information about my experience, skills, education, and achievements. Feel free to reach out if you have any questions! 📎`;
+      return `📄 Resume/CV\n\nYou can download my detailed resume here: ${portfolioData.resume}\n\nIt includes comprehensive information about my experience, skills, education, and achievements. Feel free to reach out if you have any questions! 📎`;
     }
     
     // GitHub
     if (msg.match(/(github|code repository|open source)/i)) {
-      return `🐙 **GitHub Profile:**\n\nCheck out my code at: ${portfolioData.github}\n\nI regularly contribute to open source and showcase my personal projects there. You'll find repositories for web apps, libraries, and coding experiments! ⭐`;
+      return `🐙 GitHub Profile:\n\nCheck out my code at: ${portfolioData.github}\n\nI regularly contribute to open source and showcase my personal projects there. You'll find repositories for web apps, libraries, and coding experiments! ⭐`;
     }
     
     // LinkedIn
     if (msg.match(/(linkedin|professional network|connect)/i)) {
-      return `💼 **LinkedIn Profile:**\n\nConnect with me professionally: ${portfolioData.linkedin}\n\nI share tech insights, project updates, and professional achievements there. Let's network! 🤝`;
+      return `💼 LinkedIn Profile:\n\nConnect with me professionally: ${portfolioData.linkedin}\n\nI share tech insights, project updates, and professional achievements there. Let's network! 🤝`;
     }
     
     // Availability / Freelance
     if (msg.match(/(available|freelance|open to work|hiring|looking for work)/i)) {
-      return `✅ **Availability:**\n\nI'm currently open to:\n• 💼 Full-time opportunities\n• 🎯 Freelance projects\n• 🤝 Collaborations\n• 💡 Tech consulting\n\nIf you have an interesting opportunity, let's talk! Send me a message through the contact section. 🚀`;
+      return `✅ Availability:\n\nI'm currently open to:\n• 💼 Full-time opportunities\n• 🎯 Freelance projects\n• 🤝 Collaborations\n• 💡 Tech consulting\n\nIf you have an interesting opportunity, let's talk! Send me a message through the contact section. 🚀`;
     }
     
     // Tech stack preferences
     if (msg.match(/(favorite tech|preferred framework|what do you like|best at)/i)) {
-      return `🎯 **Tech Preferences:**\n\nI particularly enjoy working with:\n• **React/Next.js** for frontend magic ✨\n• **TypeScript** for type safety 🔒\n• **Node.js/Python** for backend logic ⚙️\n• **Tailwind CSS** for beautiful UIs 🎨\n\nBut I'm always excited to learn new technologies! What tech stack do you work with? 💬`;
+      return `🎯 Tech Preferences:\n\nI particularly enjoy working with:\n• React/Next.js for frontend magic ✨\n• TypeScript for type safety 🔒\n• Node.js/Express.js for backend logic ⚙️\n• Tailwind CSS for beautiful UIs 🎨\n\nBut I'm always excited to learn new technologies! What tech stack do you work with? 💬`;
     }
     
     // Hobbies / Interests
     if (msg.match(/(hobby|interest|outside work|free time|passion)/i)) {
-      return `🌟 **Beyond Coding:**\n\nWhen I'm not at the computer, you can find me:\n• 📚 Reading tech books and articles\n• 🎮 Playing strategy games\n• 🏔️ Trekking in the mountains\n• ☕ Exploring coffee shops\n• 🎧 Listening to podcasts\n\nWork-life balance is important! What are your hobbies? 😊`;
+      return `🌟 Beyond Coding:\n\nWhen I'm not at the computer, you can find me:\n• 📚 Reading tech books and articles\n• 🎮 Playing strategy games\n• 🏔️ Trekking in the mountains\n• ☕ Exploring coffee shops\n• 🎧 Listening to podcasts\n\nWork-life balance is important! What are your hobbies? 😊`;
     }
     
     // Achievements / Awards
     if (msg.match(/(achievement|award|recognition|milestone)/i)) {
-      return `🏆 **Key Achievements:**\n\n• 🥇 Hackathon Winner 2023\n• 📝 Published technical articles\n• 🎯 Completed 50+ projects\n• 🚀 Contributed to open source\n• 📈 Grew user base by 200%\n\nI'm proud of these accomplishments and always aiming higher! 🎯`;
+      return `🏆 Key Achievements:\n\n• 🥇 Hackathon Winner 2023\n• 📝 Published technical articles\n• 🎯 Completed 50+ projects\n• 🚀 Contributed to open source\n• 📈 Grew user base by 200%\n\nI'm proud of these accomplishments and always aiming higher! 🎯`;
     }
     
     // Thank you
@@ -207,7 +207,7 @@ const PortfolioChatBot = () => {
     
     // Help / What can you do
     if (msg.match(/(help|what can you do|options|commands)/i)) {
-      return `🤖 **What I can help you with:**\n\n• 📝 **About** - Learn about me\n• 💻 **Skills** - Tech stack overview\n• 💼 **Experience** - Work history\n• 🎨 **Projects** - Portfolio showcase\n• 🎓 **Education** - Academic background\n• 📬 **Contact** - How to reach me\n• 📄 **Resume** - Download CV\n\nJust ask naturally! For example: "Tell me about your skills" or "Show me your projects". What would you like to know? 🚀`;
+      return `🤖 What I can help you with:\n\n• 📝 About - Learn about me\n• 💻 Skills - Tech stack overview\n• 💼 Experience - Work history\n• 🎨 Projects - Portfolio showcase\n• 🎓 Education - Academic background\n• 📬 Contact - How to reach me\n• 📄 Resume - Download CV\n\nJust ask naturally! For example: "Tell me about your skills" or "Show me your projects". What would you like to know? 🚀`;
     }
     
     // Default response for unknown queries
@@ -323,7 +323,7 @@ const PortfolioChatBot = () => {
                     </AvatarFallback>
                   </Avatar>
                   <div>
-                    <h3 className="text-sm font-semibold">Portfolio AI Assistant</h3>
+                    <h3 className="text-sm font-semibold">Niranjan AI Assistant</h3>
                     <p className="text-[10px] opacity-90">Online • Ask me anything!</p>
                   </div>
                 </div>
