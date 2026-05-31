@@ -1,3 +1,4 @@
+
 import { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -10,18 +11,9 @@ import {
   User, 
   Minimize2,
   Maximize2,
-  Sparkles,
-  Code,
-  Briefcase,
-  User as UserIcon,
-  Mail,
-  Github,
-  Linkedin,
-  FileText,
-  Zap
+  Sparkles
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import axios from 'axios';
 
 interface Message {
   id: string;
@@ -51,7 +43,7 @@ const PortfolioChatBot = () => {
 
   // Portfolio Data - Update this with your actual information
   const portfolioData = {
-    name: "Your Name",
+    name: "Niranjan Chaudhary",
     title: "Full Stack Developer",
     location: "Nepal",
     email: "your.email@example.com",
@@ -271,12 +263,14 @@ const PortfolioChatBot = () => {
     }
   };
 
+  // Auto-scroll to bottom when messages change
   useEffect(() => {
     if (messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
     }
   }, [messages, isTyping]);
 
+  // Focus input when chat opens
   useEffect(() => {
     if (isOpen && !isMinimized) {
       setTimeout(() => {
@@ -289,16 +283,6 @@ const PortfolioChatBot = () => {
     return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
   };
 
-  // Suggested questions for users
-  const suggestedQuestions = [
-    "What skills do you have?",
-    "Show me your projects",
-    "Tell me about your experience",
-    "How can I contact you?",
-    "What's your tech stack?",
-    "Are you available for work?"
-  ];
-
   return (
     <>
       {/* Chat Button */}
@@ -307,7 +291,7 @@ const PortfolioChatBot = () => {
           onClick={() => setIsOpen(true)}
           className="group relative flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl md:h-16 md:w-16"
         >
-          <Bot className="h-6 w-6 text-white transition-transform group-hover:rotate-12 md:h-7 md:w-7" />
+          <MessageCircle className="h-6 w-6 text-white transition-transform group-hover:rotate-12 md:h-7 md:w-7" />
           <Sparkles className="absolute -right-1 -top-1 h-4 w-4 text-yellow-400 animate-pulse" />
         </button>
       </div>
@@ -362,27 +346,8 @@ const PortfolioChatBot = () => {
 
             {!isMinimized && (
               <>
-                {/* Suggested Questions */}
-                <div className="border-b border-gray-200 bg-gray-50 p-3 dark:border-gray-700 dark:bg-gray-800">
-                  <p className="mb-2 text-xs text-gray-500 dark:text-gray-400">Suggested questions:</p>
-                  <div className="flex flex-wrap gap-2">
-                    {suggestedQuestions.map((question, idx) => (
-                      <button
-                        key={idx}
-                        onClick={() => {
-                          setInputMessage(question);
-                          setTimeout(() => handleSendMessage(), 100);
-                        }}
-                        className="rounded-full bg-white px-3 py-1 text-xs text-gray-700 transition-all hover:bg-blue-50 hover:text-blue-600 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-blue-900"
-                      >
-                        {question}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
                 {/* Messages Area */}
-                <div className="flex-1 overflow-y-auto p-4 space-y-4" style={{ height: 'calc(100% - 200px)' }}>
+                <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50 dark:bg-gray-800" style={{ height: 'calc(100% - 120px)' }}>
                   {messages.map((message) => (
                     <div
                       key={message.id}
@@ -407,7 +372,7 @@ const PortfolioChatBot = () => {
                                 ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
                                 : message.isError
                                 ? 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
-                                : 'bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200'
+                                : 'bg-white text-gray-800 dark:bg-gray-700 dark:text-gray-200 shadow-sm'
                             }`}
                           >
                             <div className="whitespace-pre-wrap text-sm leading-relaxed">
@@ -415,7 +380,7 @@ const PortfolioChatBot = () => {
                             </div>
                           </div>
                           <div className="mt-1 px-1">
-                            <span className="text-[10px] text-gray-400 dark:text-gray-600">
+                            <span className="text-[10px] text-gray-400 dark:text-gray-500">
                               {formatTime(message.timestamp)}
                             </span>
                           </div>
@@ -430,7 +395,7 @@ const PortfolioChatBot = () => {
                         <div className="flex h-7 w-7 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900">
                           <Bot className="h-3.5 w-3.5 text-blue-600 dark:text-blue-400" />
                         </div>
-                        <div className="rounded-lg bg-gray-100 p-3 dark:bg-gray-800">
+                        <div className="rounded-lg bg-white p-3 shadow-sm dark:bg-gray-700">
                           <div className="flex gap-1">
                             <span className="h-2 w-2 animate-bounce rounded-full bg-blue-600" style={{ animationDelay: '0ms' }} />
                             <span className="h-2 w-2 animate-bounce rounded-full bg-blue-600" style={{ animationDelay: '150ms' }} />
@@ -444,15 +409,15 @@ const PortfolioChatBot = () => {
                   <div ref={messagesEndRef} />
                 </div>
 
-                {/* Input Area */}
-                <div className="border-t border-gray-200 p-3 bg-white dark:border-gray-700 dark:bg-gray-900">
+                {/* Input Area - Always visible */}
+                <div className="border-t border-gray-200 p-2 bg-white dark:border-gray-700 dark:bg-gray-900">
                   <div className="flex gap-2">
                     <Input
                       ref={inputRef}
                       value={inputMessage}
                       onChange={(e) => setInputMessage(e.target.value)}
                       onKeyDown={handleKeyPress}
-                      placeholder="Ask me anything... 💬"
+                      placeholder="Ask me anything about skills, projects, experience... 💬"
                       className="flex-1 text-sm dark:bg-gray-800 dark:border-gray-700"
                       disabled={isProcessing}
                     />
@@ -465,8 +430,8 @@ const PortfolioChatBot = () => {
                       <Send className="h-4 w-4" />
                     </Button>
                   </div>
-                  <p className="mt-2 text-center text-[10px] text-gray-400 dark:text-gray-600">
-                    Powered by AI • Ask about skills, projects, experience & more
+                  <p className="mt-2 text-center text-[10px] text-gray-400 dark:text-gray-500">
+                    AI Assistant • Ask anything about my work
                   </p>
                 </div>
               </>
