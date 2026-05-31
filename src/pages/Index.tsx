@@ -8,6 +8,7 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import GitHubStats from "@/components/GitHubStats";
+import PortfolioChatBot from "@/components/PortfolioChatBot";
 
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
@@ -30,6 +31,8 @@ const Index = () => {
       
       <Contact />
       <Footer />
+         {/* Add the chatbot here - it will appear on all pages */}
+      <PortfolioChatBot />
     </div>
   );
 };
