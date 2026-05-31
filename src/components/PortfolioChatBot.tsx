@@ -63,21 +63,41 @@ const PortfolioChatBot = () => {
         title: "Full Stack Developer",
         company: "Bytesoft Nepal",
         period: "2024 - Present",
-        description: "Leading full-stack development, building scalable React applications, mentoring junior developers."
+        description: "Leading full-stack development, building scalable React applications, Building and maintaining large-scale Ecommerce and pets shop, Business Appointment system, Barber shop web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture. Also works on cPanel for Deploying and Hosting the web applications. mentoring junior developers."
       },
       {
         title: "React Developer",
         company: "Aakar eSolution",
         period: "2023 - 2024",
-        description: "Developed full-stack web applications, integrated REST APIs, optimized database queries."
+        description: "Developed full-stack web applications, integrated REST APIs, optimized database queries. Developed Quiz App with responsive, high-performance UIs for client projects. Improved page load times by 40% through code splitting and optimization."
       }
     ],
     
     projects: [
       {
         name: "E-Commerce Platform",
-        tech: "React, Node.js, MongoDB",
-        description: "Full-featured e-commerce platform with payment integration."
+        tech: "React, TailwindCSS, Node.js, Express.js, MongoDB, Redux, Cloudinary, SMTP Emails",
+        description: "Full-featured Pets Shop online store with cart, payments, admin dashboard, and real-time inventory management."
+      },
+      {
+        name: "Barber-shop",
+        tech: "Next.js, Express.js, Socket.io",
+        description: "A barber shop website with online Appointment booking, service listings, staffselection, Time&Date selection and customer reviews"
+      },
+      {
+        name: "Business Appointments Dashboard",
+        tech: "React, TypeScript, Node.js, PostgreSQL, Chart.js",
+        description: "Analytics dashboard integrating multiple social APIs with data visualization and automated reporting. In this dashboard we have website builder for automated website creation and management."
+      },
+      {
+        name: "rasa-restaurant-app",
+        tech: "React, Socket.io, Express, MongoDB, WebRTC",
+        description: "A restaurant website with real-time order tracking, menu management, and customer reviews. It also has a chatbot for customer support and reservation management."
+      },
+      {
+        name: "Blog & Consultancy CMS",
+        tech: "TypeScript.js, Node.js, MongoDB, Cloudinary",
+        description: "Consultancy website with Content management system"
       },
       {
         name: "Portfolio Website",
