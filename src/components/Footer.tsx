@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Facebook } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -36,6 +36,15 @@ const Footer = () => {
             aria-label="Twitter"
           >
             <Twitter size={18} />
+          </a>
+          <a
+            href="https://www.facebook.com/niranjan.cdy.732"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors duration-300"
+            aria-label="Facebook"
+            >
+              <Facebook size={18} />
           </a>
         </div>
       </div>
