@@ -16,6 +16,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-300"
             aria-label="GitHub"
+            title="GitHub"
           >
             <Github size={18} />
           </a>
