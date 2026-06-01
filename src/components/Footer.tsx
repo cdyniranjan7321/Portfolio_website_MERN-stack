@@ -26,6 +26,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-300"
             aria-label="LinkedIn"
+            title="LinkedIn"
           >
             <Linkedin size={18} />
           </a>
@@ -35,6 +36,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-300"
             aria-label="Twitter"
+            title="Twitter"
           >
             <Twitter size={18} />
           </a>
@@ -44,6 +46,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-300"
             aria-label="Facebook"
+            title="Facebook"
             >
               <Facebook size={18} />
           </a>
