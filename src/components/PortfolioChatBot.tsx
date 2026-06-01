@@ -306,7 +306,7 @@ const PortfolioChatBot = () => {
   return (
     <>
       {/* Chat Button */}
-      <div className="fixed bottom-4 right-4 z-[9999] md:bottom-6 md:right-6">
+      <div className="fixed bottom-4 right-4 z-[9999] md:bottom-12 md:right-6">
         <button
           onClick={() => setIsOpen(true)}
           className="group relative flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl md:h-16 md:w-16"
