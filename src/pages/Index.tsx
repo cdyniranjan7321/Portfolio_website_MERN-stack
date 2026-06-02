@@ -28,7 +28,7 @@ const Index = () => {
       {/* <BlogHighlight /> */}   {/* NEW: Shows technical writing */}
       <Contact />
       <Footer />
-         {/* Add the chatbot here - it will appear on all pages */}
+      {/* Add the chatbot here - it will appear on all pages */}
       <PortfolioChatBot />
     </div>
   );
