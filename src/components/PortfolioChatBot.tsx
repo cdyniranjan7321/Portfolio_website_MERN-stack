@@ -460,6 +460,7 @@ const PortfolioChatBot = () => {
         )}
       </AnimatePresence>
 
+{/* css code */}
       <style>{`
         @keyframes fadeIn {
           from {
