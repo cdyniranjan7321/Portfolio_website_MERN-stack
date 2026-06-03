@@ -13,6 +13,7 @@ import {
   Maximize2,
   Sparkles
 } from 'lucide-react';
+
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface Message {
