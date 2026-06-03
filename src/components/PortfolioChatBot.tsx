@@ -3,7 +3,6 @@ import { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-
 import { 
   MessageCircle, 
   X, 
@@ -14,7 +13,6 @@ import {
   Maximize2,
   Sparkles
 } from 'lucide-react';
-
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface Message {
