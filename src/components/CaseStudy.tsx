@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useParams, useNavigate } from "react-router-dom";
 import { Github, ExternalLink, ArrowLeft, Calendar, Users, Target, Code, Rocket, CheckCircle } from "lucide-react";
+import { useEffect } from "react";
 
 const projects = [
   {
@@ -187,6 +188,16 @@ const CaseStudy = () => {
   const { projectId } = useParams();
   const navigate = useNavigate();
   const project = projects.find(p => p.id === projectId);
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant" // Use "smooth" for animated scrolling
+    });
+  }, []); // Empty dependency array means this runs once when component mounts
+
 
   if (!project) {
     return (
