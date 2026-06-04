@@ -88,7 +88,7 @@ const Hero = () => {
                 href={href}
                 target={target}
                 rel={rel}
-                title={label}  // 👈 This adds the native browser tooltip
+                title={label}  // This adds the native browser tooltip for make title show as tooltip on hover
                 className="p-3 rounded-lg border border-border hover:border-primary/40 hover:shadow-[var(--shadow-glow-sm)] text-muted-foreground hover:text-primary transition-all duration-300"
               >
                 <Icon size={20} />
