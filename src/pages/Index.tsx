@@ -23,7 +23,6 @@ const Index = () => {
       <Experience />
       <Projects />
       <GitHubStats />
-
       {/*  <Certifications /> */}     {/* NEW: Shows your credentials */}
       {/* <Testimonials />  */}      {/* NEW: Social proof */}
       {/* <BlogHighlight /> */}   {/* NEW: Shows technical writing */}
