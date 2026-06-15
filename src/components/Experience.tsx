@@ -13,7 +13,7 @@ const experiences = [
     company: "Bytesoft Nepal",
     logo: bytesoftLogo,
     period: "February 2024 – Present",
-    desc: "Building and maintaining large-scale Ecommerce web App and pets shop ecommerce website, Business Appointment system(SASS project), Inventory system and Barber shop web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture. Also works on cPanel for Deploying and Hosting the web applications.",
+    desc: "Building and maintaining large-scale Restaurant web App, Clothes Ecommerce web App and pets shop ecommerce website, Business Appointment system(SASS project), Inventory system and Barber shop web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture. Also works on cPanel for Deploying and Hosting the web applications.",
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
   //{
