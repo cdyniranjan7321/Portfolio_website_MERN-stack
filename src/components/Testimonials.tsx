@@ -38,6 +38,7 @@ const Testimonials = () => {
     <section id="testimonials" className="py-24 relative bg-grid">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
       <div className="container mx-auto px-6 relative z-10">
+        
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
