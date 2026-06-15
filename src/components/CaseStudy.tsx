@@ -217,6 +217,7 @@ const CaseStudy = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent" />
