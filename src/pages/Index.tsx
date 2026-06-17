@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
+import VisitorCounter from "@/components/VisitorCounter";
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
 //import BlogHighlight from "@/components/BlogHighlight";
@@ -23,6 +24,12 @@ const Index = () => {
       <Experience />
       <Projects />
       <GitHubStats />
+
+       {/* Visitor Counter - positioned at the bottom */}
+      <div className="container mx-auto px-4 py-8 flex justify-center">
+        <VisitorCounter />
+      </div>
+
       {/*  <Certifications /> */}     {/* NEW: Shows your credentials */}
       {/* <Testimonials />  */}      {/* NEW: Social proof */}
       {/* <BlogHighlight /> */}   {/* NEW: Shows technical writing */}
