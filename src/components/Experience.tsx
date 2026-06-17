@@ -18,6 +18,7 @@ const experiences = [
     desc: "Building and maintaining large-scale Restaurant web App, Clothes Ecommerce web App and pets shop ecommerce website, Business Appointment system(SASS project), Inventory system, Real estate website and Barber shop web applications using React, Node.js, and MongoDB. Led migration of legacy systems to modern MERN architecture. Also works on cPanel for Deploying and Hosting the web applications.",
     tech: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "cPanel", "AWS"],
   },
+  
   //{
    // role: "Social Media Handler",
    // company: "Little Heart Pet Shop",
@@ -26,6 +27,7 @@ const experiences = [
    // desc: "Manages social media accounts, creates engaging content, and interacts with followers to enhance brand presence and drive traffic to the online store.",
    // tech: [],
  // },
+
  // {
    // role: "Inventory Manager",
    // company: "BlueSky Industries",
@@ -34,6 +36,7 @@ const experiences = [
    // desc: "Tracks inventory levels, orders, sales, and deliveries. It can also be used in the manufacturing industry to create a work order, bill of materials and other production-related documents.",
    // tech: [],
  // },
+
   {
     role: "React Developer",
     company: "Aakar eSolution",
@@ -78,7 +81,6 @@ const Experience = () => {
         </motion.div>
 
         <div className="max-w-3xl mx-auto relative">
-   
           {/* Timeline line */}
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px" />
           {experiences.map((exp, i) => (
