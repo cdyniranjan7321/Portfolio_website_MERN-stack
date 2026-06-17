@@ -27,6 +27,7 @@ const experiences = [
    // desc: "Manages social media accounts, creates engaging content, and interacts with followers to enhance brand presence and drive traffic to the online store.",
    // tech: [],
  // },
+ 
  // {
    // role: "Inventory Manager",
    // company: "BlueSky Industries",
