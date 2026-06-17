@@ -43,7 +43,7 @@ const Hero = () => {
           >
             <p className="font-display text-lg md:text-xl text-muted-foreground">
               <span className="text-primary">{">"}</span>{" "}
-              MERN Stack Developer with 3+ years of experience building scalable web applications
+              Full Stack Software Developer with 3+ years of experience building scalable web applications
               <span className="inline-block w-0.5 h-5 bg-primary ml-1 animate-blink align-middle" />
             </p>
           </motion.div>
