@@ -21,7 +21,7 @@ const Hero = () => {
             className="mb-6"
           >
             <span className="inline-block px-4 py-1.5 rounded-full border border-primary/20 text-primary font-display text-xs tracking-widest uppercase">
-              Full Stack Developer
+              Full Stack Software Developer
             </span>
           </motion.div>
 
@@ -43,7 +43,7 @@ const Hero = () => {
           >
             <p className="font-display text-lg md:text-xl text-muted-foreground">
               <span className="text-primary">{">"}</span>{" "}
-              MERN Stack Developer with 3+ years of experience building scalable web applications
+              Full Stack Software Developer with 3+ years of experience building scalable web applications
               <span className="inline-block w-0.5 h-5 bg-primary ml-1 animate-blink align-middle" />
             </p>
           </motion.div>
