@@ -27,7 +27,7 @@ const experiences = [
    // desc: "Manages social media accounts, creates engaging content, and interacts with followers to enhance brand presence and drive traffic to the online store.",
    // tech: [],
  // },
- 
+
  // {
    // role: "Inventory Manager",
    // company: "BlueSky Industries",
@@ -36,6 +36,7 @@ const experiences = [
    // desc: "Tracks inventory levels, orders, sales, and deliveries. It can also be used in the manufacturing industry to create a work order, bill of materials and other production-related documents.",
    // tech: [],
  // },
+
   {
     role: "React Developer",
     company: "Aakar eSolution",
@@ -80,7 +81,6 @@ const Experience = () => {
         </motion.div>
 
         <div className="max-w-3xl mx-auto relative">
-   
           {/* Timeline line */}
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px" />
           {experiences.map((exp, i) => (
