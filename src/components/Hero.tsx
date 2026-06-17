@@ -21,7 +21,7 @@ const Hero = () => {
             className="mb-6"
           >
             <span className="inline-block px-4 py-1.5 rounded-full border border-primary/20 text-primary font-display text-xs tracking-widest uppercase">
-              Full Stack Developer
+              Full Stack Software Developer
             </span>
           </motion.div>
 
