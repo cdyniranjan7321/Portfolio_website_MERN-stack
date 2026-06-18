@@ -19,7 +19,7 @@ const VisitorCounter = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    
+
     // Initialize visitor data from localStorage
     const initializeVisitors = () => {
       // Get or create total visits
@@ -70,6 +70,7 @@ const VisitorCounter = () => {
     // Simulate live visitor changes
     const liveVisitorInterval = setInterval(() => {
       setVisitorData(prev => {
+        
         // Randomly change live visitors by -2 to +3
         const change = Math.floor(Math.random() * 6) - 2;
         let newLive = prev.liveVisitors + change;
