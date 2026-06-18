@@ -11,7 +11,7 @@ interface VisitorData {
 
 const VisitorCounter = () => {
   const [visitorData, setVisitorData] = useState<VisitorData>({
-    totalVisits: 0,
+    totalVisits: 2379,
     liveVisitors: 0,
     todayVisits: 0,
   });
@@ -19,42 +19,39 @@ const VisitorCounter = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    // Initialize visitor data from localStorage
+    // Initialize visitor data
     const initializeVisitors = () => {
-      // Get or create total visits
-      let totalVisits = parseInt(localStorage.getItem('totalVisits') || '0');
-      
       // Get today's date
       const today = new Date().toDateString();
       const lastVisitDate = localStorage.getItem('lastVisitDate');
       
-      // Get today's visits
+      // Get stored values or set defaults
+      let totalVisits = parseInt(localStorage.getItem('totalVisits') || '2379');
       let todayVisits = parseInt(localStorage.getItem('todayVisits') || '0');
       
       // If it's a new day, reset today's visits
       if (lastVisitDate !== today) {
         todayVisits = 0;
         localStorage.setItem('lastVisitDate', today);
+        localStorage.setItem('todayVisits', '0');
       }
       
-      // Check if this is a new visit (not a page refresh)
+      // Check if this is a new session
       const sessionId = sessionStorage.getItem('visitorSessionId');
       if (!sessionId) {
-        // New visitor session
+        // New visitor - increment counts
         const newSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
         sessionStorage.setItem('visitorSessionId', newSessionId);
         
-        // Increment total visits
-        totalVisits++;
-        localStorage.setItem('totalVisits', totalVisits.toString());
+        totalVisits = totalVisits + 1;
+        todayVisits = todayVisits + 1;
         
-        // Increment today's visits
-        todayVisits++;
+        localStorage.setItem('totalVisits', totalVisits.toString());
         localStorage.setItem('todayVisits', todayVisits.toString());
       }
       
-      // Generate random live visitors (between 1-8)
-      const liveVisitors = Math.floor(Math.random() * 8) + 1;
+      // Set initial live visitors
+      const liveVisitors = Math.floor(Math.random() * 6) + 3; // 3-8 visitors
       
       setVisitorData({
         totalVisits,
@@ -66,23 +63,37 @@ const VisitorCounter = () => {
 
     initializeVisitors();
 
-    // Simulate live visitor changes
-    const liveVisitorInterval = setInterval(() => {
+    // Update live visitors and counters
+    const updateInterval = setInterval(() => {
       setVisitorData(prev => {
-        // Randomly change live visitors by -2 to +3
+        // Random change for live visitors (-2 to +3)
         const change = Math.floor(Math.random() * 6) - 2;
         let newLive = prev.liveVisitors + change;
-        // Keep between 0 and 15
-        newLive = Math.max(0, Math.min(15, newLive));
+        newLive = Math.max(1, Math.min(15, newLive));
+        
+        let newTotal = prev.totalVisits;
+        let newToday = prev.todayVisits;
+        
+        // If live visitors increased, increment both counters
+        if (change > 0) {
+          const increment = Math.abs(change);
+          newTotal = prev.totalVisits + increment;
+          newToday = prev.todayVisits + increment;
+          
+          localStorage.setItem('totalVisits', newTotal.toString());
+          localStorage.setItem('todayVisits', newToday.toString());
+        }
+        
         return {
-          ...prev,
+          totalVisits: newTotal,
           liveVisitors: newLive,
+          todayVisits: newToday,
         };
       });
-    }, 8000); // Update every 8 seconds
+    }, 2000); // Update every 2 seconds
 
     return () => {
-      clearInterval(liveVisitorInterval);
+      clearInterval(updateInterval);
     };
   }, []);
 
