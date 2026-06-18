@@ -19,6 +19,7 @@ const VisitorCounter = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
+    
     // Initialize visitor data from localStorage
     const initializeVisitors = () => {
       // Get or create total visits
