@@ -89,7 +89,7 @@ const VisitorCounter = () => {
           todayVisits: newToday,
         };
       });
-    }, 5000); // Update every 5 seconds
+    }, 1000); // Update every 1 seconds
 
     return () => {
       clearInterval(updateInterval);
