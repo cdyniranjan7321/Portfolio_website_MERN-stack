@@ -90,7 +90,7 @@ const VisitorCounter = () => {
           todayVisits: newToday,
         };
       });
-    }, 1000); // Update every 1 seconds
+    }, 2000); // Update every 2 seconds
 
     return () => {
       clearInterval(updateInterval);
