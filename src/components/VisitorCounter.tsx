@@ -19,7 +19,6 @@ const VisitorCounter = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-
     // Initialize visitor data from localStorage
     const initializeVisitors = () => {
       // Get or create total visits
@@ -70,7 +69,6 @@ const VisitorCounter = () => {
     // Simulate live visitor changes
     const liveVisitorInterval = setInterval(() => {
       setVisitorData(prev => {
-
         // Randomly change live visitors by -2 to +3
         const change = Math.floor(Math.random() * 6) - 2;
         let newLive = prev.liveVisitors + change;
@@ -109,7 +107,6 @@ const VisitorCounter = () => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="flex items-center gap-6 px-5 py-2.5 bg-gradient-to-r from-gray-900/80 to-gray-800/80 backdrop-blur-sm rounded-full border border-gray-700/50 shadow-lg shadow-black/20">
-      
         {/* Total Visits */}
         <div className="flex items-center gap-2">
           <Eye className="w-4 h-4 text-blue-400" />
