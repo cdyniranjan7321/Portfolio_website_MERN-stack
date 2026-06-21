@@ -10,7 +10,6 @@ import Footer from "@/components/Footer";
 import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
 import VisitorCounter from "@/components/VisitorCounter";
-
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
 //import BlogHighlight from "@/components/BlogHighlight";
