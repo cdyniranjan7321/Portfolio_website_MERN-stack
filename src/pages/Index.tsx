@@ -10,7 +10,6 @@ import Footer from "@/components/Footer";
 import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
 import VisitorCounter from "@/components/VisitorCounter";
-
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
 //import BlogHighlight from "@/components/BlogHighlight";
@@ -30,11 +29,9 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8 flex justify-center">
         <VisitorCounter />
       </div>
-
       {/*  <Certifications /> */}     {/* NEW: Shows your credentials */}
       {/* <Testimonials />  */}      {/* NEW: Social proof */}
       {/* <BlogHighlight /> */}   {/* NEW: Shows technical writing */}
-      
       <Contact />
       <Footer />
       {/* Add the chatbot here - it will appear on all pages */}
