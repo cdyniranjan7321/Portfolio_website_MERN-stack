@@ -19,7 +19,6 @@ const VisitorCounter = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    
     // Initialize visitor data
     const initializeVisitors = () => {
       // Get today's date
