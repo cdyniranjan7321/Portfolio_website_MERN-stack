@@ -39,6 +39,7 @@ const VisitorCounter = () => {
       // Check if this is a new session
       const sessionId = sessionStorage.getItem('visitorSessionId');
       if (!sessionId) {
+        
         // New visitor - increment counts
         const newSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
         sessionStorage.setItem('visitorSessionId', newSessionId);
