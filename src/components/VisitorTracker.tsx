@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Eye, Lock, Download, Trash2, Globe, MapPin, User } from "lucide-react";
@@ -30,7 +31,7 @@ const VisitorTracker = () => {
   const [locationStatus, setLocationStatus] = useState("");
 
   // Change this to your own password
-  const ADMIN_PASSWORD = "admin123";
+  const ADMIN_PASSWORD = "ADmin@1234";
 
   useEffect(() => {
     // Check if visitor already recorded in this session
@@ -152,9 +153,11 @@ const VisitorTracker = () => {
       }
 
       // Override with precise location if available
-      if (preciseLocation) {
-        latitude = preciseLocation.latitude;
-        longitude = preciseLocation.longitude;
+      if (preciseLocation && typeof preciseLocation === 'object') {
+        // preciseLocation may be unknown; guard and cast safely
+        const loc = preciseLocation as { latitude?: number | null; longitude?: number | null };
+        latitude = loc.latitude ?? latitude;
+        longitude = loc.longitude ?? longitude;
         // Try to get city from reverse geocoding if we have coordinates
         if (latitude && longitude) {
           try {
