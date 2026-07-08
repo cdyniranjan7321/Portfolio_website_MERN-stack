@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Eye, Lock, Download, Trash2, Globe, MapPin, User } from "lucide-react";
@@ -327,7 +326,7 @@ const VisitorTracker = () => {
           >
             <div className="flex justify-between items-center mb-4 sticky top-0 bg-black/80 backdrop-blur-sm p-2 -m-2 rounded-lg">
               <div>
-                <h3 className="font-display font-bold text-lg">👥 Visitor Log</h3>
+                <h3 className="font-display font-bold text-lg">👥 Admin Login</h3>
                 <p className="text-xs text-muted-foreground">{visitorCount} total visitors</p>
               </div>
               <button
@@ -344,7 +343,7 @@ const VisitorTracker = () => {
 
             {!isAuthenticated ? (
               <form onSubmit={handleAdminLogin} className="space-y-3">
-                <p className="text-sm text-muted-foreground">Enter admin password to view visitors</p>
+                <p className="text-sm text-muted-foreground">Enter admin password to view Admin Panel</p>
                 <div className="relative">
                   <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
                   <input
