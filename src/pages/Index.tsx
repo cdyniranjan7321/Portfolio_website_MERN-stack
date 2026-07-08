@@ -10,7 +10,6 @@ import Footer from "@/components/Footer";
 import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
 import VisitorCounter from "@/components/VisitorCounter";
-import VisitorGreeting from "@/components/VisitorsGreeting";
 
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
@@ -41,8 +40,6 @@ const Index = () => {
       {/* Add the chatbot here - it will appear on all pages */}
       <PortfolioChatBot />
       
-      {/* Visitor Greeting Modal - shows when user first visits */}
-      <VisitorGreeting />
     </div>
   );
 };
