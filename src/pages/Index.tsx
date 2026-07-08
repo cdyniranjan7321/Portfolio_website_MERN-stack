@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
 import VisitorCounter from "@/components/VisitorCounter";
+import VisitorTracker from "@/components/VisitorTracker";
 
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
@@ -39,7 +40,9 @@ const Index = () => {
       <Footer />
       {/* Add the chatbot here - it will appear on all pages */}
       <PortfolioChatBot />
-      
+
+        {/* Visitor Tracker - only you can see the data */}
+      <VisitorTracker />
     </div>
   );
 };
