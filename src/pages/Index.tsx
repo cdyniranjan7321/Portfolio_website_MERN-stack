@@ -11,7 +11,6 @@ import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
 import VisitorCounter from "@/components/VisitorCounter";
 import VisitorTracker from "@/components/VisitorTracker";
-
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
 //import BlogHighlight from "@/components/BlogHighlight";
