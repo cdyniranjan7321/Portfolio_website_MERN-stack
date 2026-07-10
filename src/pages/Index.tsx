@@ -31,7 +31,7 @@ const Index = () => {
         <VisitorCounter />
       </div>
 
-      {/*  <Certifications /> */}     {/* NEW: Shows your credentials */}
+      {/*  <Certifications /> */}
       {/* <Testimonials />  */}
       {/* <BlogHighlight /> */}
       <Contact />
