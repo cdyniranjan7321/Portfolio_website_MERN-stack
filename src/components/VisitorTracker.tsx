@@ -31,7 +31,7 @@ const VisitorTracker = () => {
   const [locationStatus, setLocationStatus] = useState("");
 
   // Change this to your own password
-  const ADMIN_PASSWORD = "ADmin@1234";
+  const ADMIN_PASSWORD = "ADmin@12347";
 
   useEffect(() => {
     // Check if visitor already recorded in this session
