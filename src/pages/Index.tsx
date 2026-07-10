@@ -32,7 +32,7 @@ const Index = () => {
       </div>
 
       {/*  <Certifications /> */}     {/* NEW: Shows your credentials */}
-      {/* <Testimonials />  */}      {/* NEW: Social proof */}
+      {/* <Testimonials />  */}
       {/* <BlogHighlight /> */}
       <Contact />
       <Footer />
