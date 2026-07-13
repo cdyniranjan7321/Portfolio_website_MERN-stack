@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
 import bytesoftLogo from "/images/Bytesoft-logo.png";
+
 //import littleheartLogo from "/images/Littleheartpetshop_logo.png";
 //import blueskyLogo from "/images/Blue_Sky_industry_Logo.png";
 
