@@ -14,7 +14,7 @@ const GitHubStats = () => {
 
   useEffect(() => {
     
-    // Replace 'your-username' with your actual GitHub username
+    // GitHub username
     const username = "https://github.com/cdyniranjan7321";
     
     fetch(`https://api.github.com/users/${username}`)
@@ -38,8 +38,6 @@ const GitHubStats = () => {
 
   const topRepos = [
     { name: "Ecommerce Website", stars: 12, language: "React.js, Tailwind CSS, Node.js, Express.js, MongoDB", description: "Awesome pets shop ecommerce project" },
-    //{ name: "Project 2", stars: 8, language: "React", description: "Another great project" },
-    // Add your actual top repos
   ];
 
   return (
