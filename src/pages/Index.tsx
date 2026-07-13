@@ -37,6 +37,7 @@ const Index = () => {
       {/* <BlogHighlight /> */}
       <Contact />
       <Footer />
+      
       {/* Add the chatbot here - it will appear on all pages */}
       <PortfolioChatBot />
       {/* Visitor Tracker - only you can see the data */}
