@@ -13,8 +13,7 @@ const GitHubStats = () => {
   });
 
   useEffect(() => {
-    
-    // GitHub username
+  // GitHub username
     const username = "https://github.com/cdyniranjan7321";
     
     fetch(`https://api.github.com/users/${username}`)
