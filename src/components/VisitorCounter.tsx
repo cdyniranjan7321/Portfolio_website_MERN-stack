@@ -118,6 +118,7 @@ const VisitorCounter = () => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="flex items-center gap-6 px-5 py-2.5 bg-gradient-to-r from-gray-900/80 to-gray-800/80 backdrop-blur-sm rounded-full border border-gray-700/50 shadow-lg shadow-black/20">
+      
         {/* Total Visits */}
         <div className="flex items-center gap-2">
           <Eye className="w-4 h-4 text-blue-400" />
