@@ -15,6 +15,8 @@ A modern, responsive personal portfolio website built with the MERN stack. It sh
 - **Visual Skill Representation** – Animated skill bars highlighting proficiency across frontend, backend, database, and hosting tools.
 - **Smooth Animations** – Powered by Framer Motion for a polished, modern feel.
 - **Contact Integration** – Direct methods for visitors to reach out (email, social links, etc.).
+- **Chat bot AI Assistant** - AI assistant to helps all about my skills, experiance, projects etc.
+- **Admin Login** - Admin panel which show how many people visit my website.
 
 ## 🛠️ Tech Stack
 
