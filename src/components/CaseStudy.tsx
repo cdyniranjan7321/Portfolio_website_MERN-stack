@@ -160,7 +160,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Content Management"
   },
-  
+
   {
     id: "portfolio",
     title: "Portfolio",
@@ -204,7 +204,6 @@ const CaseStudy = () => {
     });
   }, []); // Empty dependency array means this runs once when component mounts
 
-  
   if (!project) {
     return (
       <div className="min-h-screen flex items-center justify-center">
