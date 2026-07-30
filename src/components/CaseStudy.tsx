@@ -123,7 +123,8 @@ const projects = [
       "AI-powered chatbot",
       "Customer review management",
       "Menu management system",
-      "Analytics dashboard for sales and customer insights"
+      "Analytics dashboard for sales and customer insights",
+      "Grapical representation of peak hours, daily, weekly and monthly aanalytics",
     ],
     timeline: "2 months",
     role: "Full Stack Developer",
