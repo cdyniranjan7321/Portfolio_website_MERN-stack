@@ -125,6 +125,7 @@ const projects = [
       "Menu management system",
       "Analytics dashboard for sales and customer insights",
       "Grapical representation of peak hours, daily, weekly and monthly aanalytics",
+      "Admin dashboard with menu mangaement, order management, reservation management, sales analytics, inventory tracking, and customer feedback management"
     ],
     timeline: "2 months",
     role: "Full Stack Developer",
