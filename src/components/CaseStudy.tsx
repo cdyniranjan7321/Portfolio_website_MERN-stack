@@ -101,7 +101,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Analytics"
   },
-  
+
   {
     id: "rasa-restaurant-app",
     title: "Rasa Restaurant App",
@@ -133,6 +133,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Food & Beverage"
   },
+  
   {
     id: "blog-consultancy-cms",
     title: "Blog & Consultancy CMS",
