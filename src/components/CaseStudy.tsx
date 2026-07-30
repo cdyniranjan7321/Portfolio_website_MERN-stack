@@ -39,6 +39,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "E-commerce"
   },
+  
   {
     id: "barber-shop",
     title: "Barber shop",
