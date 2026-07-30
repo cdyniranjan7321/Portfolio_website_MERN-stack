@@ -39,7 +39,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "E-commerce"
   },
-  
+
   {
     id: "barber-shop",
     title: "Barber shop",
@@ -69,6 +69,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Booking System"
   },
+  
   {
     id: "business-appointments-dashboard",
     title: "Business Appointments Dashboard",
