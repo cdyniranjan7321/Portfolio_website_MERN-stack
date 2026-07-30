@@ -133,7 +133,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Food & Beverage"
   },
-  
+
   {
     id: "blog-consultancy-cms",
     title: "Blog & Consultancy CMS",
@@ -160,6 +160,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Content Management"
   },
+  
   {
     id: "portfolio",
     title: "Portfolio",
