@@ -69,7 +69,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Booking System"
   },
-  
+
   {
     id: "business-appointments-dashboard",
     title: "Business Appointments Dashboard",
@@ -101,6 +101,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Analytics"
   },
+  
   {
     id: "rasa-restaurant-app",
     title: "Rasa Restaurant App",
