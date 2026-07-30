@@ -39,6 +39,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "E-commerce"
   },
+
   {
     id: "barber-shop",
     title: "Barber shop",
@@ -68,6 +69,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Booking System"
   },
+
   {
     id: "business-appointments-dashboard",
     title: "Business Appointments Dashboard",
@@ -99,6 +101,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Analytics"
   },
+
   {
     id: "rasa-restaurant-app",
     title: "Rasa Restaurant App",
@@ -130,6 +133,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Food & Beverage"
   },
+
   {
     id: "blog-consultancy-cms",
     title: "Blog & Consultancy CMS",
@@ -156,6 +160,7 @@ const projects = [
     role: "Full Stack Developer",
     category: "Content Management"
   },
+
   {
     id: "portfolio",
     title: "Portfolio",
@@ -199,7 +204,6 @@ const CaseStudy = () => {
     });
   }, []); // Empty dependency array means this runs once when component mounts
 
-  
   if (!project) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -218,7 +222,6 @@ const CaseStudy = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent" />
