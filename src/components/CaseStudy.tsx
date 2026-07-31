@@ -131,7 +131,46 @@ const projects = [
     ],
     timeline: "2 months",
     role: "Full Stack Developer",
-    category: "Food & Beverage"
+    category: "Food & Beverage",
+
+     images: [
+      {
+        src: "/projects/restaurant/homepage.png",
+        alt: "Little Heart Pet Shop Homepage",
+        title: "Homepage",
+        description: "Main landing page with featured products"
+      },
+      {
+        src: "/projects/restaurant/products.png",
+        alt: "Product Listing",
+        title: "Product Catalog",
+        description: "Browse products with filters and search"
+      },
+      {
+        src: "/projects/restaurant/cart.png",
+        alt: "Shopping Cart",
+        title: "Shopping Cart",
+        description: "Cart management with quantity controls"
+      },
+      {
+        src: "/projects/restaurant/admin-dashboard.png",
+        alt: "Admin Dashboard",
+        title: "Admin Dashboard",
+        description: "Inventory and order management"
+      },
+      {
+        src: "/projects/restaurant/checkout.png",
+        alt: "Checkout Page",
+        title: "Checkout",
+        description: "Secure payment processing"
+      },
+      {
+        src: "/projects/restaurant/order-confirmation.png",
+        alt: "Order Confirmation",
+        title: "Order Confirmation",
+        description: "Email and order tracking"
+      }
+    ]
   },
 
   {
