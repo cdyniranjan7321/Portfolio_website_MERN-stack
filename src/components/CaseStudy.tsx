@@ -411,22 +411,22 @@ const CaseStudy = () => {
             </div>
           </motion.div>
 
-          {/* inside the CaseStudy component, after the Key Features section: */}
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  className="mt-16"
->
-  <div className="flex items-center gap-2 mb-6">
-    <Image className="text-primary" size={24} />
-    <h2 className="text-2xl font-bold">Project Gallery</h2>
-  </div>
-  <p className="text-muted-foreground mb-6">
-    Explore the visual journey of {project.title}. Click on any image to view it in full screen.
-  </p>
-  <ImageGallery images={project.images} />
-</motion.div>
+          {/* inside the CaseStudy component, after the Key Features section */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mt-16"
+            >
+             <div className="flex items-center gap-2 mb-6">
+              <Image className="text-primary" size={24} />
+               <h2 className="text-2xl font-bold">Project Gallery</h2>
+             </div>
+            <p className="text-muted-foreground mb-6">
+               Explore the visual journey of {project.title}. Click on any image to view it in full screen.
+            </p>
+             <ImageGallery images={project.images} />
+            </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

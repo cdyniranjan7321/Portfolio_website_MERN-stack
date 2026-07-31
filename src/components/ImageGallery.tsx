@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 import { useState } from "react";
