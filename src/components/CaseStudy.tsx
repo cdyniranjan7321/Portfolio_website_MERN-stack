@@ -142,6 +142,12 @@ const projects = [
         description: "Main landing page with featured products"
       },
       {
+        src: "/projects/restaurant/menu page.png",
+        alt: "Menu Page",
+        title: "Menu Page",
+        description: "Menus with categories and search functionality"
+      },
+      {
         src: "/projects/restaurant/products.png",
         alt: "Product Listing",
         title: "Product Catalog",
