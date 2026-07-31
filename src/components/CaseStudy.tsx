@@ -135,12 +135,12 @@ const projects = [
     category: "Food & Beverage",
 
      images: [
-     // {
-       // src: "/projects/restaurant/homepage.png",
-        //alt: "Little Heart Pet Shop Homepage",
-        //title: "Homepage",
-        //description: "Main landing page with featured products"
-      //},
+      {
+        src: "/projects/restaurant/homepage.png",
+        alt: "Little Heart Pet Shop Homepage",
+        title: "Homepage",
+        description: "Main landing page with featured products"
+      },
       {
         src: "/projects/restaurant/products.png",
         alt: "Product Listing",
