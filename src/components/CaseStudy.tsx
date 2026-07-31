@@ -169,7 +169,7 @@ const projects = [
         src: "/projects/restaurant/order-confirmation.png",
         alt: "Order Confirmation",
         title: "Order Confirmation",
-        description: "Email and order tracking"
+        description: "Phone, Email and order tracking"
       }
     ]
   },
