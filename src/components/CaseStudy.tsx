@@ -135,12 +135,12 @@ const projects = [
     category: "Food & Beverage",
 
      images: [
-     // {
-       // src: "/projects/restaurant/homepage.png",
-        //alt: "Little Heart Pet Shop Homepage",
-        //title: "Homepage",
-        //description: "Main landing page with featured products"
-      //},
+      {
+        src: "/projects/restaurant/homepage.png",
+        alt: "Little Heart Pet Shop Homepage",
+        title: "Homepage",
+        description: "Main landing page with featured products"
+      },
       {
         src: "/projects/restaurant/products.png",
         alt: "Product Listing",
@@ -170,6 +170,12 @@ const projects = [
         alt: "Order Confirmation",
         title: "Order Confirmation",
         description: "Phone, Email and order tracking"
+      },
+      {
+        src: "/projects/restaurant/sales and analytics.png",
+        alt: "Sales & Analytics",
+        title: "Sales & Analytics",
+        description: "Revenue, Orders, Customer Insights and graphical representation of peak hours, daily, weekly and monthly analytics"
       }
     ]
   },
