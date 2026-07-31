@@ -145,7 +145,7 @@ const projects = [
         src: "/projects/restaurant/products.png",
         alt: "Product Listing",
         title: "Product Catalog",
-        description: "Browse products with filters and search"
+        description: "Products lists with edit, delete and add new product functionality"
       },
       {
         src: "/projects/restaurant/cart.png",
