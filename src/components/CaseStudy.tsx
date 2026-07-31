@@ -170,6 +170,12 @@ const projects = [
         alt: "Order Confirmation",
         title: "Order Confirmation",
         description: "Phone, Email and order tracking"
+      },
+      {
+        src: "/projects/restaurant/sales and analytics.png",
+        alt: "Sales & Analytics",
+        title: "Sales & Analytics",
+        description: "Revenue, Orders, Customer Insights and graphical representation of peak hours, daily, weekly and monthly analytics"
       }
     ]
   },
