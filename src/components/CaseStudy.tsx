@@ -422,11 +422,11 @@ const CaseStudy = () => {
               <Image className="text-primary" size={24} />
                <h2 className="text-2xl font-bold">Project Gallery</h2>
              </div>
-  <p className="text-muted-foreground mb-6">
-    Explore the visual journey of {project.title}. Click on any image to view it in full screen.
-  </p>
-  <ImageGallery images={project.images} />
-</motion.div>
+            <p className="text-muted-foreground mb-6">
+               Explore the visual journey of {project.title}. Click on any image to view it in full screen.
+            </p>
+             <ImageGallery images={project.images} />
+            </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
