@@ -182,6 +182,12 @@ const projects = [
         alt: "Sales & Analytics",
         title: "Sales & Analytics",
         description: "Revenue, Orders, Customer Insights and graphical representation of peak hours, daily, weekly and monthly analytics"
+      },
+      {
+        src: "/projects/restaurant/order-distribution.png",
+        alt: "Category distribution",
+        title: "Category Distribution",
+        description: "Graphical representation of sales distribution by category, helping to identify popular items and trends."
       }
     ]
   },
