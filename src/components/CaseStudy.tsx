@@ -142,6 +142,12 @@ const projects = [
         description: "Main landing page with featured products"
       },
       {
+        src: "/projects/restaurant/menu page.png",
+        alt: "Menu Page",
+        title: "Menu Page",
+        description: "Menus with categories and search functionality"
+      },
+      {
         src: "/projects/restaurant/products.png",
         alt: "Product Listing",
         title: "Product Catalog",
@@ -176,6 +182,12 @@ const projects = [
         alt: "Sales & Analytics",
         title: "Sales & Analytics",
         description: "Revenue, Orders, Customer Insights and graphical representation of peak hours, daily, weekly and monthly analytics"
+      },
+      {
+        src: "/projects/restaurant/order-distribution.png",
+        alt: "Category distribution",
+        title: "Category Distribution",
+        description: "Graphical representation of sales distribution by category, helping to identify popular items and trends."
       }
     ]
   },
