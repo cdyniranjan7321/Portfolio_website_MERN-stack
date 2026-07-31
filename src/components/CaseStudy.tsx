@@ -157,7 +157,7 @@ const projects = [
         src: "/projects/restaurant/admin-dashboard.png",
         alt: "Admin Dashboard",
         title: "Admin Dashboard",
-        description: "Inventory and order management"
+        description: "Inventory, Menu, Reservations, Sales&Analytics and order management"
       },
       {
         src: "/projects/restaurant/checkout.png",
