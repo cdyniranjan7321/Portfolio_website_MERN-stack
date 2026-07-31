@@ -145,7 +145,7 @@ const projects = [
         src: "/projects/restaurant/products.png",
         alt: "Product Listing",
         title: "Product Catalog",
-        description: "Browse products with filters and search"
+        description: "Products lists with edit, delete and add new product functionality"
       },
       {
         src: "/projects/restaurant/cart.png",
@@ -157,7 +157,7 @@ const projects = [
         src: "/projects/restaurant/admin-dashboard.png",
         alt: "Admin Dashboard",
         title: "Admin Dashboard",
-        description: "Inventory and order management"
+        description: "Inventory, Menu, Reservations, Sales&Analytics and order management"
       },
       {
         src: "/projects/restaurant/checkout.png",
@@ -169,7 +169,7 @@ const projects = [
         src: "/projects/restaurant/order-confirmation.png",
         alt: "Order Confirmation",
         title: "Order Confirmation",
-        description: "Email and order tracking"
+        description: "Phone, Email and order tracking"
       }
     ]
   },
