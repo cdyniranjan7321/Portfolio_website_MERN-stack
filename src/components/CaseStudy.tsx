@@ -71,6 +71,12 @@ const projects = [
         title: "Checkout Page",
         description: "Checkout page with shipping address and order summary."
       },
+      {
+        src: "/projects/littleheartpetshop/paymentpage.png",
+        alt: "Payment Page",
+        title: "Payment Page",
+        description: "Payment page with payment method selection and order confirmation."
+      },
     ]
   },
 
