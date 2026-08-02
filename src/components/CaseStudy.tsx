@@ -125,7 +125,34 @@ const projects = [
     ],
     timeline: "2.5 months",
     role: "Full Stack Developer",
-    category: "Booking System"
+    category: "Booking System",
+
+    images: [
+      {
+        src: "/projects/barbershop/homepage.png",
+        alt: "Little Heart Pet Shop Homepage",
+        title: "Homepage",
+        description: "Main landing page."
+      },
+      {
+        src: "/projects/barbershop/servicesselectionpage.png",
+        alt: "Services Selection Page",
+        title: "Services Selection Page",
+        description: "Services selection page with available services and their details."
+      },
+      {
+        src: "/projects/barbershop/staffselectionpage.png",
+        alt: "Staff Selection Page",
+        title: "Staff Selection Page",
+        description: "Staff selection page with available staff and their profiles."
+      },
+      {
+        src: "/projects/barbershop/date&timeselection page.png",
+        alt: "Date & Time Selection Page",
+        title: "Date & Time Selection Page",
+        description: "Date & Time selection page with available slots and calendar view."
+      },
+    ]
   },
 
   {
@@ -157,7 +184,16 @@ const projects = [
     ],
     timeline: "4 months",
     role: "Full Stack Developer",
-    category: "Analytics"
+    category: "Analytics",
+
+    images: [
+      {
+        src: "/projects/businesssappointmentsdashboard/businessdashboard.png",
+        alt: "Business Appointments Dashboard",
+        title: "Business Appointments Dashboard",
+        description: "Business Appointments Dashboard with analytics, charts, and website builder."
+      },
+    ]
   },
 
   {
@@ -273,7 +309,16 @@ const projects = [
     ],
     timeline: "1 months",
     role: "Full Stack Developer",
-    category: "Content Management"
+    category: "Content Management",
+
+    images: [
+      {
+        src: "/projects/blog&consultancy/homepage.png",
+        alt: "Blog & Consultancy Homepage",
+        title: "Blog & Consultancy Homepage",
+        description: "Blog & Consultancy Homepage with featured articles and services."
+      },
+    ]
   },
 
   {
@@ -301,7 +346,16 @@ const projects = [
     ],
     timeline: "1.5 months",
     role: "Designer & Developer",
-    category: "Personal Branding"
+    category: "Personal Branding",
+
+    images: [
+      {
+        src: "/projects/portfolio/homepage.png",
+        alt: "Portfolio Homepage",
+        title: "Portfolio Homepage",
+        description: "Portfolio with all skills, experience and projects."
+      },
+      ]
   }
 ];
 
