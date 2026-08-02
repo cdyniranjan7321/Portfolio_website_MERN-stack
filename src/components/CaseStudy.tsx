@@ -83,6 +83,12 @@ const projects = [
         title: "Admin Dashboard",
         description: "Admin dashboard with analytics, order management, product management and category management."
       },
+      {
+        src: "/projects/littleheartpetshop/orderhistorypage.png",
+        alt: "Order History Page",
+        title: "Order History Page",
+        description: "Order history page with order details."
+      },
     ]
   },
 
