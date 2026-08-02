@@ -54,7 +54,7 @@ const projects = [
         description: "Products page with search and filter functionality."
       },
       {
-        src: "/projects/littleheartpetshop/productdetailspage.png",
+        src: "/projects/littleheartpetshop/productsdetailspage.png",
         alt: "ProductDeails Page",
         title: "ProductDetails Page",
         description: "ProductDetails page with selectable product colors, sizes and add to cart functionality."
