@@ -125,7 +125,28 @@ const projects = [
     ],
     timeline: "2.5 months",
     role: "Full Stack Developer",
-    category: "Booking System"
+    category: "Booking System",
+
+    images: [
+      {
+        src: "/projects/barbershop/homepage.png",
+        alt: "Little Heart Pet Shop Homepage",
+        title: "Homepage",
+        description: "Main landing page."
+      },
+      {
+        src: "/projects/barbershop/servicesselectionpage.png",
+        alt: "Services Selection Page",
+        title: "Services Selection Page",
+        description: "Services selection page with available services and their details."
+      },
+      {
+        src: "/projects/barbershop/staffselectionpage.png",
+        alt: "Staff Selection Page",
+        title: "Staff Selection Page",
+        description: "Staff selection page with available staff and their profiles."
+      },
+    ]
   },
 
   {
