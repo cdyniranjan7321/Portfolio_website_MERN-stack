@@ -184,7 +184,16 @@ const projects = [
     ],
     timeline: "4 months",
     role: "Full Stack Developer",
-    category: "Analytics"
+    category: "Analytics",
+
+    images: [
+      {
+        src: "/projects/businesssappointmentsdashboard/businessdashboard.png",
+        alt: "Business Appointments Dashboard",
+        title: "Business Appointments Dashboard",
+        description: "Business Appointments Dashboard with analytics, charts, and website builder."
+      },
+    ]
   },
 
   {
