@@ -59,6 +59,12 @@ const projects = [
         title: "ProductDetails Page",
         description: "ProductDetails page with selectable product colors, sizes and add to cart functionality."
       },
+       {
+        src: "/projects/littleheartpetshop/add to cart.png",
+        alt: "Add to Cart Page",
+        title: "Add to Cart Page",
+        description: "Add to Cart page with quantity selection and checkout button."
+      },
     ]
   },
 
