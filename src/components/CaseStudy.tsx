@@ -77,6 +77,12 @@ const projects = [
         title: "Payment Page",
         description: "Payment page with payment method selection and order confirmation."
       },
+      {
+        src: "/projects/littleheartpetshop/admindashboard.png",
+        alt: "Admin Dashboard",
+        title: "Admin Dashboard",
+        description: "Admin dashboard with analytics, order management, product management and category management."
+      },
     ]
   },
 
