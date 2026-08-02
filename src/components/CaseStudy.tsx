@@ -346,7 +346,16 @@ const projects = [
     ],
     timeline: "1.5 months",
     role: "Designer & Developer",
-    category: "Personal Branding"
+    category: "Personal Branding",
+
+    images: [
+      {
+        src: "/projects/portfolio/homepage.png",
+        alt: "Portfolio Homepage",
+        title: "Portfolio Homepage",
+        description: "Portfolio with all skills, experience and projects."
+      },
+      ]
   }
 ];
 
