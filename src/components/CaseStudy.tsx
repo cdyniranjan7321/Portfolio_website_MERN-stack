@@ -309,7 +309,16 @@ const projects = [
     ],
     timeline: "1 months",
     role: "Full Stack Developer",
-    category: "Content Management"
+    category: "Content Management",
+
+    images: [
+      {
+        src: "/projects/blog&consultancy/homepage.png",
+        alt: "Blog & Consultancy Homepage",
+        title: "Blog & Consultancy Homepage",
+        description: "Blog & Consultancy Homepage with featured articles and services."
+      },
+    ]
   },
 
   {
