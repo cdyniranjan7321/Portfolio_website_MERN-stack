@@ -89,6 +89,12 @@ const projects = [
         title: "Order History Page",
         description: "Order history page with order details."
       },
+      {
+        src: "/projects/littleheartpetshop/order confirmation email.png",
+        alt: "Order Confirmation Email",
+        title: "Order Confirmation Email",
+        description: "Order confirmation email sent to customers after successful order placement."
+      },
     ]
   },
 
