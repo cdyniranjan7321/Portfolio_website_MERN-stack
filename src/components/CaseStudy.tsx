@@ -38,7 +38,22 @@ const projects = [
     ],
     timeline: "3 months",
     role: "Full Stack Developer",
-    category: "E-commerce"
+    category: "E-commerce",
+
+    images: [
+      {
+        src: "/projects/littleheartpetshop/homepage.png",
+        alt: "Little Heart Pet Shop Homepage",
+        title: "Homepage",
+        description: "Main landing page."
+      },
+      {
+        src: "/projects/littleheartpetshop/productpage.png",
+        alt: "Product Page",
+        title: "Product Page",
+        description: "Products page with search and filter functionality."
+      },
+    ]
   },
 
   {
