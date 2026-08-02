@@ -146,6 +146,12 @@ const projects = [
         title: "Staff Selection Page",
         description: "Staff selection page with available staff and their profiles."
       },
+      {
+        src: "/projects/barbershop/date&timeselection page.png",
+        alt: "Date & Time Selection Page",
+        title: "Date & Time Selection Page",
+        description: "Date & Time selection page with available slots and calendar view."
+      },
     ]
   },
 
