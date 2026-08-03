@@ -193,6 +193,48 @@ const projects = [
         title: "Business Appointments Dashboard",
         description: "Business Appointments Dashboard with analytics, charts, and website builder."
       },
+      {
+        src: "/projects/businesssappointmentsdashboard/servicespage.png",
+        alt: "Services Page",
+        title: "Services Page",
+        description: "Services Page with service listings and management."
+      },
+      {
+        src: "/projects/businesssappointmentsdashboard/appointmentpage.png",
+        alt: "Appointment Page",
+        title: "Appointment Page",
+        description: "Appointment Page with appointment listings and management."
+      },
+      {
+        src: "/projects/businesssappointmentsdashboard/projectpage.png",
+        alt: "Project Page",
+        title: "Project Page",
+        description: "Project Page with different projects templates to choose from and manage their business website."
+      },
+      {
+        src: "/projects/businesssappointmentsdashboard/templatepage.png",
+        alt: "Template Page",
+        title: "Template Page",
+        description: "View selected template and customize it according to their business needs."
+      },
+      {
+        src: "/projects/businesssappointmentsdashboard/websiteeditpage.png",
+        alt: "Website Builder Edit Page",
+        title: "Website Builder Edit Page",
+        description: "Website Builder Edit Page with selectable components to customize their business website."
+      },
+      {
+        src: "/projects/businesssappointmentsdashboard/customizesection.png",
+        alt: "Customize Section",
+        title: "Customize Section",
+        description: "Customize Section with options to change colors, fonts, and layout of the selected component."
+      },
+      {
+        src: "/projects/businesssappointmentsdashboard/deploysection.png",
+        alt: "Deploy Section",
+        title: "Deploy Section",
+        description: "Deploy Section with preview of the website and options to deploy it to a live server."
+      },
     ]
   },
 
