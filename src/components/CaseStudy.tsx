@@ -366,6 +366,12 @@ const projects = [
         title: "Services Page",
         description: "Services Page with detailed descriptions of consultancy offerings."
       },
+       {
+        src: "/projects/blog&consultancy/contactpage.png",
+        alt: "Contact Page",
+        title: "Contact Page",
+        description: "Contact Page with form for inquiries."
+      },
     ]
   },
 
