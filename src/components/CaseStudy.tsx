@@ -223,6 +223,18 @@ const projects = [
         title: "Website Builder Edit Page",
         description: "Website Builder Edit Page with selectable components to customize their business website."
       },
+      {
+        src: "/projects/businesssappointmentsdashboard/customizesection.png",
+        alt: "Customize Section",
+        title: "Customize Section",
+        description: "Customize Section with options to change colors, fonts, and layout of the selected component."
+      },
+      {
+        src: "/projects/businesssappointmentsdashboard/deploysection.png",
+        alt: "Deploy Section",
+        title: "Deploy Section",
+        description: "Deploy Section with preview of the website and options to deploy it to a live server."
+      },
     ]
   },
 
