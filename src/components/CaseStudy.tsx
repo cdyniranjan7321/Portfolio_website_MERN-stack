@@ -193,6 +193,12 @@ const projects = [
         title: "Business Appointments Dashboard",
         description: "Business Appointments Dashboard with analytics, charts, and website builder."
       },
+      {
+        src: "/projects/businesssappointmentsdashboard/servicespage.png",
+        alt: "Services Page",
+        title: "Services Page",
+        description: "Services Page with service listings and management."
+      },
     ]
   },
 
