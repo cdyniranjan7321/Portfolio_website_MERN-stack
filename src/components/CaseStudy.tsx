@@ -211,6 +211,12 @@ const projects = [
         title: "Project Page",
         description: "Project Page with different projects templates to choose from and manage their business website."
       },
+      {
+        src: "/projects/businesssappointmentsdashboard/templatepage.png",
+        alt: "Template Page",
+        title: "Template Page",
+        description: "View selected template and customize it according to their business needs."
+      },
     ]
   },
 
