@@ -199,6 +199,12 @@ const projects = [
         title: "Services Page",
         description: "Services Page with service listings and management."
       },
+      {
+        src: "/projects/businesssappointmentsdashboard/appointmentpage.png",
+        alt: "Appointment Page",
+        title: "Appointment Page",
+        description: "Appointment Page with appointment listings and management."
+      },
     ]
   },
 
