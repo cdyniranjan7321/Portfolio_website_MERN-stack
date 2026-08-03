@@ -217,6 +217,12 @@ const projects = [
         title: "Template Page",
         description: "View selected template and customize it according to their business needs."
       },
+      {
+        src: "/projects/businesssappointmentsdashboard/websiteeditpage.png",
+        alt: "Website Builder Edit Page",
+        title: "Website Builder Edit Page",
+        description: "Website Builder Edit Page with selectable components to customize their business website."
+      },
     ]
   },
 
