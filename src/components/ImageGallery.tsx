@@ -34,7 +34,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
   };
 
   // Keyboard navigation
-  useState(() => {
+   useState(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') closeLightbox();
       if (e.key === 'ArrowLeft') navigateImage('prev');
