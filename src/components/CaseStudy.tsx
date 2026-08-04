@@ -439,6 +439,12 @@ const projects = [
         title: "Github Activity page",
         description: "Github Activity page with all the contributions I have made on Github. And live website visiters counter with all the visitors and their locations."
       },
+       {
+        src: "/projects/portfolio/contactpage.png",
+        alt: "Contact page",
+        title: "Contact page",
+        description: "Contact page with all the contact information and a contact form to send me a message."
+      },
       ]
   }
 ];
