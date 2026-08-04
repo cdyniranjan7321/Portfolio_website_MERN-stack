@@ -39,6 +39,7 @@ const projects = [
     timeline: "3 months",
     role: "Full Stack Developer",
     category: "E-commerce",
+
     images: [
       {
         src: "/projects/littleheartpetshop/homepage.png",
