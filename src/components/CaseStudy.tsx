@@ -415,6 +415,30 @@ const projects = [
         title: "About Me page",
         description: "About Me page with skills and experience."
       },
+       {
+        src: "/projects/portfolio/skillspage.png",
+        alt: "Skills & Technologies page",
+        title: "Skills & Technologies page",
+        description: "Skills & Technologies page with all the technologies and skills I have."
+      },
+       {
+        src: "/projects/portfolio/projects.png",
+        alt: "Projects page",
+        title: "Projects page",
+        description: "Projects page with all the projects I have worked on. And each project has a case study page with all the details of the project."
+      },
+       {
+        src: "/projects/portfolio/experience.png",
+        alt: "Experience page",
+        title: "Experience page",
+        description: "Experience page with all the experience I have."
+      },
+       {
+        src: "/projects/portfolio/github.png",
+        alt: "Github Activity page",
+        title: "Github Activity page",
+        description: "Github Activity page with all the contributions I have made on Github. And live website visiters counter with all the visitors and their locations."
+      },
       ]
   }
 ];
