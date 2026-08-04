@@ -427,6 +427,12 @@ const projects = [
         title: "Projects page",
         description: "Projects page with all the projects I have worked on. And each project has a case study page with all the details of the project."
       },
+       {
+        src: "/projects/portfolio/experience.png",
+        alt: "Experience page",
+        title: "Experience page",
+        description: "Experience page with all the experience I have."
+      },
       ]
   }
 ];
