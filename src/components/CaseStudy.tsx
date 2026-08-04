@@ -415,6 +415,12 @@ const projects = [
         title: "About Me page",
         description: "About Me page with skills and experience."
       },
+       {
+        src: "/projects/portfolio/skillspage.png",
+        alt: "Skills & Technologies page",
+        title: "Skills & Technologies page",
+        description: "Skills & Technologies page with all the technologies and skills I have."
+      },
       ]
   }
 ];
