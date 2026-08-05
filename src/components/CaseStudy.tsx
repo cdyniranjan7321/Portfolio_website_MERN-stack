@@ -265,7 +265,6 @@ const projects = [
     timeline: "2 months",
     role: "Full Stack Developer",
     category: "Food & Beverage",
-
      images: [
       {
         src: "/projects/restaurant/homepage.png",
