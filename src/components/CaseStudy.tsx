@@ -396,7 +396,6 @@ const projects = [
     timeline: "1.5 months",
     role: "Designer & Developer",
     category: "Personal Branding",
-
     images: [
       {
         src: "/projects/portfolio/homepage.png",
