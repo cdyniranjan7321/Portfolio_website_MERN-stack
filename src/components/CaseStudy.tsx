@@ -125,7 +125,6 @@ const projects = [
     timeline: "2.5 months",
     role: "Full Stack Developer",
     category: "Booking System",
-
     images: [
       {
         src: "/projects/barbershop/homepage.png",
