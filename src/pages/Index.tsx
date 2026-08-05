@@ -11,16 +11,24 @@ import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
 import VisitorCounter from "@/components/VisitorCounter";
 import VisitorTracker from "@/components/VisitorTracker";
+import AdPlacement from "@/components/AdPlacement";
 
 //import Certifications from "@/components/Certifications";
 //import Testimonials from "@/components/Testimonials";
 //import BlogHighlight from "@/components/BlogHighlight";
 
 const Index = () => {
+
+  // Your actual slot ID from AdSense
+  const AD_SLOT_TOP = '2194107970';
   return (
     <div className="min-h-screen">
       <Navbar />
       <Hero />
+
+        {/* ✅ Ad after Hero section - Using your slot ID */}
+      <AdPlacement position="top" adSlot={AD_SLOT_TOP} />
+      
       <About />
       <Skills />
       <Experience />
