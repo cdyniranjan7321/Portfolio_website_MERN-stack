@@ -183,7 +183,6 @@ const projects = [
     timeline: "4 months",
     role: "Full Stack Developer",
     category: "Analytics",
-
     images: [
       {
         src: "/projects/businesssappointmentsdashboard/businessdashboard.png",
