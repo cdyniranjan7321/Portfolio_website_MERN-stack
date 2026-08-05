@@ -265,7 +265,6 @@ const projects = [
     timeline: "2 months",
     role: "Full Stack Developer",
     category: "Food & Beverage",
-
      images: [
       {
         src: "/projects/restaurant/homepage.png",
@@ -349,7 +348,6 @@ const projects = [
     timeline: "1 months",
     role: "Full Stack Developer",
     category: "Content Management",
-
     images: [
       {
         src: "/projects/blog&consultancy/homepage.png",
@@ -398,7 +396,6 @@ const projects = [
     timeline: "1.5 months",
     role: "Designer & Developer",
     category: "Personal Branding",
-
     images: [
       {
         src: "/projects/portfolio/homepage.png",
