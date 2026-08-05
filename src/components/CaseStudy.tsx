@@ -39,7 +39,6 @@ const projects = [
     timeline: "3 months",
     role: "Full Stack Developer",
     category: "E-commerce",
-
     images: [
       {
         src: "/projects/littleheartpetshop/homepage.png",
@@ -126,7 +125,6 @@ const projects = [
     timeline: "2.5 months",
     role: "Full Stack Developer",
     category: "Booking System",
-
     images: [
       {
         src: "/projects/barbershop/homepage.png",
@@ -185,7 +183,6 @@ const projects = [
     timeline: "4 months",
     role: "Full Stack Developer",
     category: "Analytics",
-
     images: [
       {
         src: "/projects/businesssappointmentsdashboard/businessdashboard.png",
