@@ -348,7 +348,6 @@ const projects = [
     timeline: "1 months",
     role: "Full Stack Developer",
     category: "Content Management",
-
     images: [
       {
         src: "/projects/blog&consultancy/homepage.png",
