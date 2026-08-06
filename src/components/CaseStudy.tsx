@@ -441,8 +441,8 @@ const projects = [
       },
       {
         src: "/projects/portfolio/chatbotpage.png",
-        alt: "Contact page",
-        title: "Contact page",
+        alt: "ChatBot",
+        title: "ChatBot",
         description: "Contact page with all the contact information and a contact form to send me a message."
       },
       ]
