@@ -319,6 +319,12 @@ const projects = [
         alt: "Category distribution",
         title: "Category Distribution",
         description: "Graphical representation of sales distribution by category, helping to identify popular items and trends."
+      },
+      {
+        src: "/projects/restaurant/chatbotpage.png",
+        alt: "Rasa AI Assistant",
+        title: "Rasa AI Assistant",
+        description: "ChatBot page with a chatbot to answer all the questions related to the restaurant website. It is an AI-powered chatbot that can answer all the questions related to the restaurant website."
       }
     ]
   },
