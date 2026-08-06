@@ -439,6 +439,12 @@ const projects = [
         title: "Contact page",
         description: "Contact page with all the contact information and a contact form to send me a message."
       },
+      {
+        src: "/projects/portfolio/chatbotpage.png",
+        alt: "ChatBot",
+        title: "ChatBot",
+        description: "ChatBot page with a chatbot to answer all the questions related to my portfolio website. It is an AI-powered chatbot that can answer all the questions related to my portfolio website."
+      },
       ]
   }
 ];
