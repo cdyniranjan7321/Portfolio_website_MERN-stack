@@ -7,7 +7,7 @@ const GitHubStats = () => {
   const [stats, setStats] = useState({
     repos: 43,
     followers: 0,
-    totalStars: 24,
+    totalStars: 26,
     totalForks: 0,
     contributions: 3771,
   });
