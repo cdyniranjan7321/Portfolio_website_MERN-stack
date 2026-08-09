@@ -100,7 +100,7 @@ const GitHubStats = () => {
                     <p className="text-sm text-muted-foreground">{repo.description}</p>
                     <div className="flex items-center gap-4 mt-2">
                       <span className="text-xs text-muted-foreground flex items-center gap-1">
-                        <Star size={12} /> {repo.stars} stars
+                        {/* <Star size={12} /> {repo.stars} stars */}
                       </span>
                       <span className="text-xs text-muted-foreground">{repo.language}</span>
                     </div>
