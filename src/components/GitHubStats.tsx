@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const GitHubStats = () => {
   const [stats, setStats] = useState({
-    repos: 41,
+    repos: 43,
     followers: 0,
     totalStars: 24,
     totalForks: 0,
@@ -21,7 +21,7 @@ const GitHubStats = () => {
       .then((data) => {
         setStats((prev) => ({
           ...prev,
-          repos: data.public_repos || 29,
+          repos: data.public_repos || 31,
           followers: data.followers || 12,
         }));
       })
