@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 
 const GitHubStats = () => {
   const [stats, setStats] = useState({
-    repos: 41,
+    repos: 43,
     followers: 0,
-    totalStars: 24,
+    totalStars: 26,
     totalForks: 0,
-    contributions: 3771,
+    contributions: 5376,
   });
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const GitHubStats = () => {
       .then((data) => {
         setStats((prev) => ({
           ...prev,
-          repos: data.public_repos || 29,
+          repos: data.public_repos || 31,
           followers: data.followers || 12,
         }));
       })
@@ -100,7 +100,7 @@ const GitHubStats = () => {
                     <p className="text-sm text-muted-foreground">{repo.description}</p>
                     <div className="flex items-center gap-4 mt-2">
                       <span className="text-xs text-muted-foreground flex items-center gap-1">
-                        <Star size={12} /> {repo.stars} stars
+                        {/* <Star size={12} /> {repo.stars} stars */}
                       </span>
                       <span className="text-xs text-muted-foreground">{repo.language}</span>
                     </div>
