@@ -500,7 +500,7 @@ const projects = [
     title: "Real Estate House Website",
     desc: "Real Estate website with property listings, search functionality, and contact forms for inquiries. It allows users to browse available properties and get in touch with agents.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Express", "MongoDB"],
-    github: "",
+    github: "https://github.com/cdyniranjan7321/Dream_home_Real-Estate-project",
     live: "",
     fullDescription: "A real estate website that allows users to browse property listings, view detailed information, and contact agents for inquiries. The platform provides a user-friendly interface for both buyers and sellers.",
     challenge: "The real estate market needed a digital platform to showcase properties effectively, allowing users to filter and search based on their preferences. The challenge was to create a responsive and intuitive interface that could handle a large number of listings.",
