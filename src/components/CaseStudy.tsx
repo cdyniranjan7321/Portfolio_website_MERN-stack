@@ -487,6 +487,12 @@ const projects = [
         title: "Real-time Team Collaboration Board Homepage",
         description: "Real-time Team Collaboration Board with all the tasks, team members and chat."
        },
+       {
+        src: "/projects/realtimeboard/addtaskspage.png",
+        alt: "Add Tasks Page",
+        title: "Add Tasks Page",
+        description: "Add Tasks Page with all the tasks and their details."
+       },
       ]
   }
 
