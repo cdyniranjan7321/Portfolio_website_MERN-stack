@@ -529,10 +529,10 @@ const projects = [
         description: "Real Estate House Website with all the properties, search functionality and contact forms."
        },
        {
-        src: "/projects/realtimeboard/addtaskspage.png",
-        alt: "Add Tasks Page",
-        title: "Add Tasks Page",
-        description: "Add Tasks Page with all the tasks and their details."
+        src: "/projects/realestate/homepage2.png",
+        alt: "Real Estate properties page",
+        title: "Real Estate properties page",
+        description: "Real Estate properties page with all the properties and their details."
        },
       ]
   }
