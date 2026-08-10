@@ -540,6 +540,12 @@ const projects = [
         title: "Contact Page",
         description: "Contact Page with contact form for inquiries."
        },
+        {
+        src: "/projects/realestate/propertiespage.png",
+        alt: "Properties selection page as filtered by location, price range and property type",
+        title: "Properties selection page ",
+        description: "Properties selection page as filtered by location, price range and property type with all the properties and their details."
+       },
       ]
   }
 
