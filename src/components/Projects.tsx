@@ -65,7 +65,7 @@ const projects = [
     title: "Real Estate House Website",
     desc: "A real estate website with property listings, search functionality, and contact forms for inquiries. It allows users to browse available properties and get in touch with agents.",
     tech: ["React", "Tailwind CSS", "typeScript", "Node.js", "MongoDB"],
-    github: "",
+    github: "https://github.com/cdyniranjan7321/Dream_home_Real-Estate-project",
     live: "",
   },
 ];
