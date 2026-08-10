@@ -534,6 +534,12 @@ const projects = [
         title: "Real Estate properties page",
         description: "Real Estate properties page with all the properties and their details."
        },
+        {
+        src: "/projects/realestate/contactpage.png",
+        alt: "Contact Page",
+        title: "Contact Page",
+        description: "Contact Page with contact form for inquiries."
+       },
       ]
   }
 
