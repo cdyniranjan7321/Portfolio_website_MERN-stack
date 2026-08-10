@@ -52,6 +52,14 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Portfolio_website_MERN-stack",
     live: "https://www.niranjanchaudhary.com.np/",
   },
+  {
+    id: "real-time team collaboration board ",
+    title: "Real-time Team Collaboration Board",
+    desc: "A real-time collaboration board for teams to manage tasks, share updates, and communicate effectively. It includes features like task assignment, progress tracking, and team chat.",
+    tech: ["React", "Socket.io", "TypeScript", "Node.js", "MongoDB"],
+    github: "https://github.com/cdyniranjan7321/Real_Time_Team_Collaboration_Board",
+    live: "",
+  },
 ];
 
 const Projects = () => {
