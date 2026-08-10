@@ -551,6 +551,7 @@ const projects = [
 
 ];
 
+
 const CaseStudy = () => {
   const { projectId } = useParams();
   const navigate = useNavigate();
