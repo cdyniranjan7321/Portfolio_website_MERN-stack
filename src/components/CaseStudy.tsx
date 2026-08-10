@@ -494,6 +494,47 @@ const projects = [
         description: "Add Tasks Page with all the tasks and their details."
        },
       ]
+  },
+  {
+    id: "real estate house website",
+    title: "Real Estate House Website",
+    desc: "Real Estate website with property listings, search functionality, and contact forms for inquiries. It allows users to browse available properties and get in touch with agents.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Express", "MongoDB"],
+    github: "",
+    live: "",
+    fullDescription: "A real estate website that allows users to browse property listings, view detailed information, and contact agents for inquiries. The platform provides a user-friendly interface for both buyers and sellers.",
+    challenge: "The real estate market needed a digital platform to showcase properties effectively, allowing users to filter and search based on their preferences. The challenge was to create a responsive and intuitive interface that could handle a large number of listings.",
+    solution: "Developed a React frontend with TypeScript for type safety, Tailwind CSS for styling, and an Express/MongoDB backend for managing property data. The website includes advanced search and filtering options, detailed property pages, and contact forms for inquiries.",
+    results: [
+      "Increased property inquiries by 50%",
+      "Enhanced user experience with intuitive navigation",
+      "Reduced time to find suitable properties by 40%"
+    ],
+    features: [
+      "Property listings with images and details",
+      "Advanced search and filtering options",
+      "Responsive design for mobile and desktop",
+      "Contact forms for inquiries",
+      "Search as price range, location, property type, and more"
+      
+    ],
+    timeline: "1.5 months",
+    role: "Full Stack Developer",
+    category: "Personal Branding",
+    images: [
+      {
+        src: "/projects/realestate/homepage.png",
+        alt: "Real Estate House Website Homepage",
+        title: "Real Estate House Website Homepage",
+        description: "Real Estate House Website with all the properties, search functionality and contact forms."
+       },
+       {
+        src: "/projects/realtimeboard/addtaskspage.png",
+        alt: "Add Tasks Page",
+        title: "Add Tasks Page",
+        description: "Add Tasks Page with all the tasks and their details."
+       },
+      ]
   }
 
 ];
