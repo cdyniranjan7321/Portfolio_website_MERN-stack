@@ -73,7 +73,7 @@ const projects = [
     title: "Rasa Clothes Collection",
     desc: "Rasa clothes collection is a clothing e-commerce website with product listings, shopping cart, and checkout functionality. It allows users to browse and purchase clothing items online.",
     tech: ["React", "Tailwind CSS", "typeScript", "Node.js", "MongoDB"],
-    github: "",
+    github: "https://github.com/cdyniranjan7321/Ecommerce_App_for_clothes",
     live: "",
   },
 ];
