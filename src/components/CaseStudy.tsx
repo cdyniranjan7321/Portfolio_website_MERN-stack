@@ -588,6 +588,36 @@ const projects = [
         title: "Product  Details Page",
         description: "Product Details Page with all the product details, sizes, colors, quantity selection and add to cart functionality."
        },
+        {
+        src: "/projects/rasaclothes/cartpage.png",
+        alt: "Cart Page",
+        title: "Cart Page",
+        description: "Cart Page with all the products in the cart, quantity selection and checkout button."
+       },
+        {
+        src: "/projects/rasaclothes/checkoutpage.png",
+        alt: "Checkout Page",
+        title: "Checkout Page",
+        description: "Checkout Page with shipping address, payment method selection and order summary."
+       },
+        {
+        src: "/projects/rasaclothes/finalorders.png",
+        alt: "Order Confirmation Page",
+        title: "Order Confirmation Page",
+        description: "Order Confirmation Page with order details, shipping address and payment method."
+       },
+        {
+        src: "/projects/rasaclothes/userorderspage.png",
+        alt: "User Orders Profile Page",
+        title: "User Orders Profile Page",
+        description: "User Orders Profile Page with all the orders placed by the user, order details and order status."
+       },
+        {
+        src: "/projects/rasaclothes/ordersdetailsviewpage.png",
+        alt: "User Order Details View Page",
+        title: "User Order Details View Page",
+        description: "User Order Details View Page with all the details of the order placed by the user, order status and order tracking."
+       },
       ]
   },
 ];
