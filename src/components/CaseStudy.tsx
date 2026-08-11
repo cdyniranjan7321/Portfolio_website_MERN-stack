@@ -586,11 +586,10 @@ const projects = [
         src: "/projects/rasaclothes/productdetailspage.png",
         alt: "Product Details Page",
         title: "Product  Details Page",
-        description: "P"
+        description: "Product Details Page with all the product details, sizes, colors, quantity selection and add to cart functionality."
        },
       ]
   },
-
 ];
 
 const CaseStudy = () => {
