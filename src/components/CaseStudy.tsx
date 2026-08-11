@@ -578,15 +578,15 @@ const projects = [
     images: [
       {
         src: "/projects/rasaclothes/homepage.png",
-        alt: "Real-time Team Collaboration Board Homepage",
-        title: "Real-time Team Collaboration Board Homepage",
-        description: "Real-time Team Collaboration Board with all the tasks, team members and chat."
+        alt: "Rasa Clothes Collection Homepage",
+        title: "Rasa Clothes Collection Homepage",
+        description: "Rasa Clothes Collection Homepage with all the products, search functionality and contact forms."
        },
        {
-        src: "/projects/realtimeboard/addtaskspage.png",
-        alt: "Add Tasks Page",
-        title: "Add Tasks Page",
-        description: "Add Tasks Page with all the tasks and their details."
+        src: "/projects/rasaclothes/productdetailspage.png",
+        alt: "Product Details Page",
+        title: "Product  Details Page",
+        description: "P"
        },
       ]
   },
