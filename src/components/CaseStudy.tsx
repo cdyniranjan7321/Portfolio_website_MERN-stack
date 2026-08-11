@@ -557,9 +557,9 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
     github: "",
     live: "",
-    fullDescription: "A real-time collaboration board for teams to manage tasks, share updates, and communicate effectively. It includes features like task assignment, progress tracking, and team chat.",
-    challenge: "Teams often struggle with task management and communication, especially in remote settings. The challenge was to create a platform that allows for real-time updates and seamless collaboration.",
-    solution: "Built with React for the frontend, Socket.io for real-time communication, and Express/MongoDB for backend and data storage. The platform allows team members to create tasks, assign them, track progress, and communicate through an integrated chat system.",
+    fullDescription: "A clothing e-commerce platform that allows users to browse, select, and purchase clothing items online. The website features a user-friendly interface, product categorization, and secure checkout process.",
+    challenge: "The challenge was to create an engaging online shopping experience that could handle a variety of clothing products, sizes, and colors while ensuring a smooth checkout process.",
+    solution: "Developed a React frontend with Tailwind CSS for responsive design, and an Express/MongoDB backend for managing product data and user orders. The platform includes product listings, a shopping cart, and a secure checkout process.",
     results: [
       "Increased team productivity by 40%",
       "Reduced task completion time by 30%",
