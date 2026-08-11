@@ -495,6 +495,7 @@ const projects = [
        },
       ]
   },
+
   {
     id: "real estate house website",
     title: "Real Estate House Website",
@@ -547,8 +548,48 @@ const projects = [
         description: "Properties selection page as filtered by location, price range and property type with all the properties and their details."
        },
       ]
-  }
+  },
 
+  {
+    id: "Rasa clothes collection",
+    title: "Rasa Clothes Collection",
+    desc: "Rasa clothes collection is a clothing e-commerce website with product listings, shopping cart, and checkout functionality. It allows users to browse and purchase clothing items online.",
+    tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
+    github: "",
+    live: "",
+    fullDescription: "A clothing e-commerce platform that allows users to browse, select, and purchase clothing items online. The website features a user-friendly interface, product categorization, and secure checkout process.",
+    challenge: "The challenge was to create an engaging online shopping experience that could handle a variety of clothing products, sizes, and colors while ensuring a smooth checkout process.",
+    solution: "Developed a React frontend with Tailwind CSS for responsive design, and an Express/MongoDB backend for managing product data and user orders. The platform includes product listings, a shopping cart, and a secure checkout process.",
+    results: [
+      "Increased online sales by 40%",
+      "Enhanced user experience with intuitive navigation",
+      "Reduced cart abandonment rate by 25%"
+    ],
+    features: [
+      "Product listings with images and details",
+      "Shopping cart with quantity management",
+      "Secure checkout process with payment integration",
+      "Responsive design for mobile and desktop",
+      "Product categorization and filtering options"
+    ],
+    timeline: "1.5 months",
+    role: "Full Stack Developer",
+    category: "Personal Branding",
+    images: [
+      {
+        src: "/projects/rasaclothes/homepage.png",
+        alt: "Rasa Clothes Collection Homepage",
+        title: "Rasa Clothes Collection Homepage",
+        description: "Rasa Clothes Collection Homepage with all the products, search functionality and contact forms."
+       },
+       {
+        src: "/projects/rasaclothes/productdetailspage.png",
+        alt: "Product Details Page",
+        title: "Product  Details Page",
+        description: "Product Details Page with all the product details, sizes, colors, quantity selection and add to cart functionality."
+       },
+      ]
+  },
 ];
 
 const CaseStudy = () => {

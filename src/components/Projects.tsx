@@ -68,6 +68,14 @@ const projects = [
     github: "https://github.com/cdyniranjan7321/Dream_home_Real-Estate-project",
     live: "",
   },
+  {
+    id: "Rasa clothes collection",
+    title: "Rasa Clothes Collection",
+    desc: "Rasa clothes collection is a clothing e-commerce website with product listings, shopping cart, and checkout functionality. It allows users to browse and purchase clothing items online.",
+    tech: ["React", "Tailwind CSS", "typeScript", "Node.js", "MongoDB"],
+    github: "",
+    live: "",
+  },
 ];
 
 const Projects = () => {
