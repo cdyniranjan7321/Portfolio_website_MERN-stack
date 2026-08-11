@@ -495,7 +495,7 @@ const projects = [
        },
       ]
   },
-  
+
   {
     id: "real estate house website",
     title: "Real Estate House Website",
@@ -548,7 +548,49 @@ const projects = [
         description: "Properties selection page as filtered by location, price range and property type with all the properties and their details."
        },
       ]
-  }
+  },
+
+  {
+    id: "Rasa clothes collection",
+    title: "Rasa Clothes Collection",
+    desc: "Rasa clothes collection is a clothing e-commerce website with product listings, shopping cart, and checkout functionality. It allows users to browse and purchase clothing items online.",
+    tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
+    github: "",
+    live: "",
+    fullDescription: "A real-time collaboration board for teams to manage tasks, share updates, and communicate effectively. It includes features like task assignment, progress tracking, and team chat.",
+    challenge: "Teams often struggle with task management and communication, especially in remote settings. The challenge was to create a platform that allows for real-time updates and seamless collaboration.",
+    solution: "Built with React for the frontend, Socket.io for real-time communication, and Express/MongoDB for backend and data storage. The platform allows team members to create tasks, assign them, track progress, and communicate through an integrated chat system.",
+    results: [
+      "Increased team productivity by 40%",
+      "Reduced task completion time by 30%",
+      "Improved team communication and collaboration"
+    ],
+    features: [
+      "Real-time task management",
+      "Team chat and notifications",
+      "Progress tracking and analytics",
+      "Task assignment and deadlines",
+      "File sharing and attachments",
+      
+    ],
+    timeline: "1.5 months",
+    role: "Full Stack Developer",
+    category: "Personal Branding",
+    images: [
+      {
+        src: "/projects/realtimeboard/homepage.png",
+        alt: "Real-time Team Collaboration Board Homepage",
+        title: "Real-time Team Collaboration Board Homepage",
+        description: "Real-time Team Collaboration Board with all the tasks, team members and chat."
+       },
+       {
+        src: "/projects/realtimeboard/addtaskspage.png",
+        alt: "Add Tasks Page",
+        title: "Add Tasks Page",
+        description: "Add Tasks Page with all the tasks and their details."
+       },
+      ]
+  },
 
 ];
 
