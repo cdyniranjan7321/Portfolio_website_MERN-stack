@@ -555,7 +555,7 @@ const projects = [
     title: "Rasa Clothes Collection",
     desc: "Rasa clothes collection is a clothing e-commerce website with product listings, shopping cart, and checkout functionality. It allows users to browse and purchase clothing items online.",
     tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
-    github: "",
+    github: "https://github.com/cdyniranjan7321/Ecommerce_App_for_clothes",
     live: "",
     fullDescription: "A clothing e-commerce platform that allows users to browse, select, and purchase clothing items online. The website features a user-friendly interface, product categorization, and secure checkout process.",
     challenge: "The challenge was to create an engaging online shopping experience that could handle a variety of clothing products, sizes, and colors while ensuring a smooth checkout process.",
