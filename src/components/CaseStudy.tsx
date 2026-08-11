@@ -588,6 +588,12 @@ const projects = [
         title: "Product  Details Page",
         description: "Product Details Page with all the product details, sizes, colors, quantity selection and add to cart functionality."
        },
+        {
+        src: "/projects/rasaclothes/cartpage.png",
+        alt: "Cart Page",
+        title: "Cart Page",
+        description: "Cart Page with all the products in the cart, quantity selection and checkout button."
+       },
       ]
   },
 ];
