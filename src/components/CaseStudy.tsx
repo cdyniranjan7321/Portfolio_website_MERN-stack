@@ -495,6 +495,7 @@ const projects = [
        },
       ]
   },
+  
   {
     id: "real estate house website",
     title: "Real Estate House Website",
