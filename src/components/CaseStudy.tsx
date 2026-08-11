@@ -594,6 +594,12 @@ const projects = [
         title: "Cart Page",
         description: "Cart Page with all the products in the cart, quantity selection and checkout button."
        },
+        {
+        src: "/projects/rasaclothes/checkoutpage.png",
+        alt: "Checkout Page",
+        title: "Checkout Page",
+        description: "Checkout Page with shipping address, payment method selection and order summary."
+       },
       ]
   },
 ];
