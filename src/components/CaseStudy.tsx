@@ -606,6 +606,12 @@ const projects = [
         title: "Order Confirmation Page",
         description: "Order Confirmation Page with order details, shipping address and payment method."
        },
+        {
+        src: "/projects/rasaclothes/userorderspage.png",
+        alt: "User Orders Profile Page",
+        title: "User Orders Profile Page",
+        description: "User Orders Profile Page with all the orders placed by the user, order details and order status."
+       },
       ]
   },
 ];
