@@ -612,6 +612,12 @@ const projects = [
         title: "User Orders Profile Page",
         description: "User Orders Profile Page with all the orders placed by the user, order details and order status."
        },
+        {
+        src: "/projects/rasaclothes/ordersdetailsviewpage.png",
+        alt: "User Order Details View Page",
+        title: "User Order Details View Page",
+        description: "User Order Details View Page with all the details of the order placed by the user, order status and order tracking."
+       },
       ]
   },
 ];
