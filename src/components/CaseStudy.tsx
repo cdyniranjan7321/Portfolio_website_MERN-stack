@@ -561,24 +561,23 @@ const projects = [
     challenge: "The challenge was to create an engaging online shopping experience that could handle a variety of clothing products, sizes, and colors while ensuring a smooth checkout process.",
     solution: "Developed a React frontend with Tailwind CSS for responsive design, and an Express/MongoDB backend for managing product data and user orders. The platform includes product listings, a shopping cart, and a secure checkout process.",
     results: [
-      "Increased team productivity by 40%",
-      "Reduced task completion time by 30%",
-      "Improved team communication and collaboration"
+      "Increased online sales by 40%",
+      "Enhanced user experience with intuitive navigation",
+      "Reduced cart abandonment rate by 25%"
     ],
     features: [
-      "Real-time task management",
-      "Team chat and notifications",
-      "Progress tracking and analytics",
-      "Task assignment and deadlines",
-      "File sharing and attachments",
-      
+      "Product listings with images and details",
+      "Shopping cart with quantity management",
+      "Secure checkout process with payment integration",
+      "Responsive design for mobile and desktop",
+      "Product categorization and filtering options"
     ],
     timeline: "1.5 months",
     role: "Full Stack Developer",
     category: "Personal Branding",
     images: [
       {
-        src: "/projects/realtimeboard/homepage.png",
+        src: "/projects/rasaclothes/homepage.png",
         alt: "Real-time Team Collaboration Board Homepage",
         title: "Real-time Team Collaboration Board Homepage",
         description: "Real-time Team Collaboration Board with all the tasks, team members and chat."
