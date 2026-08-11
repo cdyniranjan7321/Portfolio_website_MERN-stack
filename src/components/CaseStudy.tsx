@@ -600,6 +600,12 @@ const projects = [
         title: "Checkout Page",
         description: "Checkout Page with shipping address, payment method selection and order summary."
        },
+        {
+        src: "/projects/rasaclothes/finalorders.png",
+        alt: "Order Confirmation Page",
+        title: "Order Confirmation Page",
+        description: "Order Confirmation Page with order details, shipping address and payment method."
+       },
       ]
   },
 ];
