@@ -199,7 +199,7 @@ const Hobbies = () => {
               }}
               className="inline-block mb-4"
             >
-              <span className="text-6xl">🎯</span>
+              <span className="text-6xl"></span>
             </motion.div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
               My Hobbies & Passions
@@ -280,9 +280,9 @@ const Hobbies = () => {
                     }}
                     className="inline-block mb-4"
                   >
-                    <span className="text-7xl">🎯</span>
+                    <span className="text-7xl"></span>
                   </motion.div>
-                  <h2 className="text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
+                  <h2 className="text-4xl md:text-5xl font-bold mb-3 bg-white bg-clip-text text-transparent">
                     My Hobbies & Passions
                   </h2>
                   <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
