@@ -1,5 +1,6 @@
+
 import { motion } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState } from "react";
 import { 
   Gamepad2, 
   Music, 
@@ -8,11 +9,7 @@ import {
   Bike, 
   Coffee,
   Code2,
-  Trophy,
-  Globe,
-  Heart,
-  Star,
-  Award
+  Globe
 } from "lucide-react";
 
 interface Hobby {
@@ -105,19 +102,14 @@ const Hobbies = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (containerRef.current) {
-        const rect = containerRef.current.getBoundingClientRect();
-        const x = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
-        const y = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
-        setMousePosition({ x, y });
-      }
-    };
-
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (containerRef.current) {
+      const rect = containerRef.current.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
+      const y = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
+      setMousePosition({ x, y });
+    }
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -136,27 +128,15 @@ const Hobbies = () => {
       y: 50,
       rotateX: -20,
     },
-    visible: (index: number) => ({
+    visible: {
       opacity: 1,
       y: 0,
       rotateX: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         stiffness: 100,
         damping: 12,
-        delay: index * 0.05,
       },
-    }),
-  };
-
-  const floatingAnimation = {
-    y: [0, -10, 0],
-    rotate: [0, 2, -2, 0],
-    transition: {
-      duration: 3,
-      repeat: Infinity,
-      repeatType: "reverse" as const,
-      ease: "easeInOut",
     },
   };
 
@@ -177,7 +157,16 @@ const Hobbies = () => {
           className="text-center mb-16"
         >
           <motion.div
-            animate={floatingAnimation}
+            animate={{
+              y: [0, -10, 0],
+              rotate: [0, 2, -2, 0],
+            }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              repeatType: "reverse" as const,
+              ease: "easeInOut",
+            }}
             className="inline-block mb-4"
           >
             <span className="text-6xl">🎯</span>
@@ -196,6 +185,7 @@ const Hobbies = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
+          onMouseMove={handleMouseMove}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
         >
           {hobbies.map((hobby, index) => (
