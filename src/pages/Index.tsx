@@ -11,6 +11,7 @@ import GitHubStats from "@/components/GitHubStats";
 import PortfolioChatBot from "@/components/PortfolioChatBot";
 import VisitorCounter from "@/components/VisitorCounter";
 import VisitorTracker from "@/components/VisitorTracker";
+import Hobbies from "@/components/Hobbies";
 
 //import AdPlacement from "@/components/AdPlacement";
 //import Certifications from "@/components/Certifications";
@@ -34,6 +35,7 @@ const Index = () => {
       <Skills />
       <Experience />
       <Projects />
+      <Hobbies /> {/* Add the Hobbies component here */}
       <GitHubStats />
 
        {/* Visitor Counter - positioned at the bottom */}
