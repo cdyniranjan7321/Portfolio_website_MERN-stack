@@ -620,6 +620,7 @@ const projects = [
        },
       ]
   },
+  
 ];
 
 const CaseStudy = () => {
