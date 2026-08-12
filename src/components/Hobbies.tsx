@@ -201,7 +201,7 @@ const Hobbies = () => {
             >
               <span className="text-6xl"></span>
             </motion.div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-white bg-clip-text text-transparent">
               My Hobbies & Passions
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
@@ -217,7 +217,7 @@ const Hobbies = () => {
               whileTap={{ scale: 0.95 }}
               className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
             >
-              <Sparkles className="w-5 h-5 group-hover:rotate-12 transition-transform" />
+              {/*<Sparkles className="w-5 h-5 group-hover:rotate-12 transition-transform" />  */}
               <span>Explore My Hobbies</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.button>
@@ -282,7 +282,7 @@ const Hobbies = () => {
                   >
                     <span className="text-7xl"></span>
                   </motion.div>
-                  <h2 className="text-4xl md:text-5xl font-bold mb-3 bg-white bg-clip-text text-transparent">
+                  <h2 className="text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
                     My Hobbies & Passions
                   </h2>
                   <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
