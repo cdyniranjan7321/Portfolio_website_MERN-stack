@@ -368,7 +368,7 @@ const Hobbies = () => {
                   ))}
                 </motion.div>
 
-                {/* Fun Fact Section */}
+                {/* Fun Fact Section
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -402,6 +402,8 @@ const Hobbies = () => {
                     </motion.div>
                   </div>
                 </motion.div>
+                */}
+
               </div>
             </motion.div>
           </>
