@@ -218,6 +218,7 @@ const Hobbies = () => {
               className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
             >
               {/*<Sparkles className="w-5 h-5 group-hover:rotate-12 transition-transform" />  */}
+              
               <span>Explore My Hobbies</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.button>

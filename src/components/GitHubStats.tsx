@@ -9,7 +9,7 @@ const GitHubStats = () => {
     followers: 0,
     totalStars: 26,
     totalForks: 0,
-    contributions: 4827,
+    contributions: 4837,
   });
 
   useEffect(() => {
