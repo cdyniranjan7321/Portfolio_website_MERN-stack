@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 
 const GitHubStats = () => {
   const [stats, setStats] = useState({
-    repos: 43,
+    repos: 44,
     followers: 0,
     totalStars: 26,
     totalForks: 0,
-    contributions: 4837,
+    contributions: 4851,
   });
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const GitHubStats = () => {
       .then((data) => {
         setStats((prev) => ({
           ...prev,
-          repos: data.public_repos || 31,
+          repos: data.public_repos || 32,
           followers: data.followers || 12,
         }));
       })
