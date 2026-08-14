@@ -35,7 +35,7 @@ const Index = () => {
       <Skills />
       <Experience />
       <Projects />
-      <Hobbies /> {/* Add the Hobbies component here */}
+      <Hobbies />
       <GitHubStats />
 
        {/* Visitor Counter - positioned at the bottom */}
