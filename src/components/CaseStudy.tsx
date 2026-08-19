@@ -620,6 +620,41 @@ const projects = [
        },
       ]
   },
+
+   {
+    id: "Ridgeline LMS Website",
+    title: "Ridgeline LMS Website",
+    desc: "Learning Management System supports two distinct user experiences through role-based access control: instructors can create courses, upload video lessons, and monitor student progress, while students can browse a course catalog, enroll, stream lessons, and track their own completion in real time.",
+    tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
+    github: "",
+    live: "",
+    fullDescription: "",
+    challenge: "",
+    solution: "",
+    results: [
+      "",
+      "",
+      ""
+    ],
+    features: [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    timeline: "1.5 months",
+    role: "Full Stack Developer",
+    category: "Personal Branding",
+    images: [
+      {
+        src: "/projects/lms/homepage.png",
+        alt: "Ridgeline LMS Website Home Page",
+        title: "Ridgeline LMS Website Home Page",
+        description: ""
+       },
+      ]
+    }
 ];
 
 const CaseStudy = () => {
