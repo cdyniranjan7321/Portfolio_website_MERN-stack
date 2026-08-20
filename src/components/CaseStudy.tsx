@@ -651,7 +651,7 @@ const projects = [
         src: "/projects/lms/homepage.png",
         alt: "Ridgeline LMS Website Home Page",
         title: "Ridgeline LMS Website Home Page",
-        description: ""
+        description: "Homepage with all the navigation bar and Beautiful design."
        },
       ]
     }
