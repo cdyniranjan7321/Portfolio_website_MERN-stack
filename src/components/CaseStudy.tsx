@@ -632,7 +632,7 @@ const projects = [
     challenge: "The core technical challenge was video handling — instructors upload lesson videos (up to 500MB) via Multer, and playback is served through a custom Express route that honors HTTP range requests.",
     solution: "Built a custom streaming endpoint that parses the Range HTTP header on each request and responds with 206 Partial Content, piping only the requested byte range from disk using fs.createReadStream. This lets the native <video> element seek instantly to any timestamp, mirroring how production video platforms serve content, without needing a third-party media service.",
     results: [
-      "",
+      "Reduced time to find suitable course by 40%",
       "",
       ""
     ],
