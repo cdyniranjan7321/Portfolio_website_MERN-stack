@@ -634,7 +634,7 @@ const projects = [
     results: [
       "Reduced time to find suitable course by 40%",
       "Enrollment model links students to courses and tracks completed lessons",
-      ""
+      "Instructors upload lesson videos (up to 500MB via Multer)"
     ],
     features: [
       "Role-Based Access System",
