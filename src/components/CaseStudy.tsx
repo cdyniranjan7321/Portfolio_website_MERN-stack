@@ -628,8 +628,8 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
     github: "",
     live: "",
-    fullDescription: "",
-    challenge: "",
+    fullDescription: "Learning Management System supports two distinct user experiences through role-based access control: instructors can create courses, upload video lessons, and monitor student progress, while students can browse a course catalog, enroll, stream lessons, and track their own completion in real time. Authentication is handled with JWT and bcrypt-hashed passwords, and every API route enforces role permissions server-side, not just in the UI.",
+    challenge: "The core technical challenge was video handling — instructors upload lesson videos (up to 500MB) via Multer, and playback is served through a custom Express route that honors HTTP range requests.",
     solution: "",
     results: [
       "",
