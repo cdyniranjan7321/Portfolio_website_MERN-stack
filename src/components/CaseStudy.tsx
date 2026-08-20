@@ -659,6 +659,12 @@ const projects = [
         title: "Ridgeline LMS Website Blog Page",
         description: "Blog Page with all collection of blogs and details."
        },
+        {
+        src: "/projects/lms/contactpage.png",
+        alt: "Ridgeline LMS Website Contact Page",
+        title: "Ridgeline LMS Website Contact Page",
+        description: "Blog Page with all collection of blogs and details."
+       },
       ]
     }
 ];
