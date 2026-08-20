@@ -630,18 +630,18 @@ const projects = [
     live: "",
     fullDescription: "Learning Management System supports two distinct user experiences through role-based access control: instructors can create courses, upload video lessons, and monitor student progress, while students can browse a course catalog, enroll, stream lessons, and track their own completion in real time. Authentication is handled with JWT and bcrypt-hashed passwords, and every API route enforces role permissions server-side, not just in the UI.",
     challenge: "The core technical challenge was video handling — instructors upload lesson videos (up to 500MB) via Multer, and playback is served through a custom Express route that honors HTTP range requests.",
-    solution: "",
+    solution: "Built a custom streaming endpoint that parses the Range HTTP header on each request and responds with 206 Partial Content, piping only the requested byte range from disk using fs.createReadStream. This lets the native <video> element seek instantly to any timestamp, mirroring how production video platforms serve content, without needing a third-party media service.",
     results: [
-      "",
-      "",
-      ""
+      "Reduced time to find suitable course by 40%",
+      "Enrollment model links students to courses and tracks completed lessons",
+      "Instructors upload lesson videos (up to 500MB via Multer)"
     ],
     features: [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Role-Based Access System",
+      "Video Upload & Streaming Pipeline",
+      "Real-Time Enrollment & Progress Tracking",
+      "Fully Responsive, Custom-Designed Interface",
+      "Two Different Dashboard for Student and Instructor"
     ],
     timeline: "1.5 months",
     role: "Full Stack Developer",
@@ -651,7 +651,7 @@ const projects = [
         src: "/projects/lms/homepage.png",
         alt: "Ridgeline LMS Website Home Page",
         title: "Ridgeline LMS Website Home Page",
-        description: ""
+        description: "Homepage with all the navigation bar and Beautiful design."
        },
       ]
     }
