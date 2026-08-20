@@ -654,7 +654,7 @@ const projects = [
         description: "Homepage with all the navigation bar and Beautiful design."
        },
         {
-        src: "/projects/lms/blogpage",
+        src: "/projects/lms/blogpage.png",
         alt: "Ridgeline LMS Website Blog Page",
         title: "Ridgeline LMS Website Blog Page",
         description: "Blog Page with all collection of blogs and details."
