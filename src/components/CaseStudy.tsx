@@ -683,6 +683,12 @@ const projects = [
         title: "Student Dashboard Course Detail Page",
         description: "Student Dashboard Course Detail Page with all about course, instructor information and payment section which helps to enroll to unlock video lessons."
        },
+        {
+        src: "/projects/lms/instructordashboard.png",
+        alt: "",
+        title: "",
+        description: ""
+       },
       ]
     }
 ];
