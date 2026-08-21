@@ -675,7 +675,7 @@ const projects = [
         src: "/projects/lms/studentdashboard.png",
         alt: "Student Dashboard",
         title: "Student Dashboard",
-        description: ""
+        description: "Student Dashboard with all enrolled courses with continue button to see courses details and find new courses also."
        },
       ]
     }
