@@ -668,8 +668,8 @@ const projects = [
         {
         src: "/projects/lms/signuppageforstudent&instructor.png",
         alt: "Ridgeline LMS Website Signup Page for Both Student and Instructor.",
-        title: "Ridgeline LMS Website Contact Page",
-        description: "Contact Page form section and all social media with map."
+        title: "Ridgeline LMS Website Signup Page for Both Student and Instructor.",
+        description: "Contact Page "
        },
       ]
     }
