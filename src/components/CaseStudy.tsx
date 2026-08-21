@@ -685,8 +685,8 @@ const projects = [
        },
         {
         src: "/projects/lms/instructordashboard.png",
-        alt: "",
-        title: "",
+        alt: "Instructor Dashboard",
+        title: "Instructor Dashboard",
         description: ""
        },
       ]
