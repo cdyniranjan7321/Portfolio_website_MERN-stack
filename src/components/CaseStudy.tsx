@@ -671,6 +671,12 @@ const projects = [
         title: "Ridgeline LMS Website Signup Page for Both Student and Instructor.",
         description: "Signup Page for as a Student or Instructor with JWT Authentication system."
        },
+       {
+        src: "/projects/lms/studentdashboard.png",
+        alt: "",
+        title: "",
+        description: ""
+       },
       ]
     }
 ];
