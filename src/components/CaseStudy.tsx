@@ -693,7 +693,7 @@ const projects = [
         src: "/projects/lms/createnewcourse.png",
         alt: "Create New course Page",
         title: "Create New course Page",
-        description: ""
+        description: "Create New course Page with all course details, category, level, price etc."
        },
       ]
     }
