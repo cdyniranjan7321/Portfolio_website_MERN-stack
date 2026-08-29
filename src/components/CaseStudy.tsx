@@ -689,6 +689,12 @@ const projects = [
         title: "Instructor Dashboard",
         description: "Instructor Dashboard with all course details with manage, view, published, unpublished function and also create new course function."
        },
+       {
+        src: "/projects/lms/createnewcourse.png",
+        alt: "Create New course Page",
+        title: "Create New course Page",
+        description: ""
+       },
       ]
     }
 ];
