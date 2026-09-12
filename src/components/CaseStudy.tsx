@@ -730,46 +730,10 @@ const projects = [
     category: "Personal Branding",
     images: [
       {
-        src: "/projects/rasaclothes/homepage.png",
-        alt: "Rasa Clothes Collection Homepage",
-        title: "Rasa Clothes Collection Homepage",
-        description: "Rasa Clothes Collection Homepage with all the products, search functionality and contact forms."
-       },
-       {
-        src: "/projects/rasaclothes/productdetailspage.png",
-        alt: "Product Details Page",
-        title: "Product  Details Page",
-        description: "Product Details Page with all the product details, sizes, colors, quantity selection and add to cart functionality."
-       },
-        {
-        src: "/projects/rasaclothes/cartpage.png",
-        alt: "Cart Page",
-        title: "Cart Page",
-        description: "Cart Page with all the products in the cart, quantity selection and checkout button."
-       },
-        {
-        src: "/projects/rasaclothes/checkoutpage.png",
-        alt: "Checkout Page",
-        title: "Checkout Page",
-        description: "Checkout Page with shipping address, payment method selection and order summary."
-       },
-        {
-        src: "/projects/rasaclothes/finalorders.png",
-        alt: "Order Confirmation Page",
-        title: "Order Confirmation Page",
-        description: "Order Confirmation Page with order details, shipping address and payment method."
-       },
-        {
-        src: "/projects/rasaclothes/userorderspage.png",
-        alt: "User Orders Profile Page",
-        title: "User Orders Profile Page",
-        description: "User Orders Profile Page with all the orders placed by the user, order details and order status."
-       },
-        {
-        src: "/projects/rasaclothes/ordersdetailsviewpage.png",
-        alt: "User Order Details View Page",
-        title: "User Order Details View Page",
-        description: "User Order Details View Page with all the details of the order placed by the user, order status and order tracking."
+        src: "/projects/rasaitsolutions/homepage.png",
+        alt: "Rasa IT Solutions Homepage",
+        title: "Rasa IT Solutions Homepage",
+        description: "Rasa IT Solutions Homepage with all the services, portfolio and contact forms."
        },
       ]
   },
