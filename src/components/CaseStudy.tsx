@@ -702,7 +702,79 @@ const projects = [
         description: "Manage Course Page with all course details and add video lesson functions."
        },
       ]
-    }
+    },
+
+    {
+    id: "Rasa IT Solutions",
+    title: "Rasa IT Solutions",
+    desc: "Rasa IT Solutions is a professional IT services website that provides information about the company's services, portfolio, and contact details. It serves as an online presence for the company to attract potential clients and showcase their expertise.",
+    tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
+    github: "https://github.com/cdyniranjan7321/rasa_IT_solutions",
+    live: "https://rasa-it-solutions.onrender.com/",
+    fullDescription: "A professional IT services website that provides information about the company's services, portfolio, and contact details. It serves as an online presence for the company to attract potential clients and showcase their expertise.",
+    challenge: "The challenge was to create a visually appealing and informative website that effectively communicates the company's services and expertise while ensuring a smooth user experience.",
+    solution: "Developed a React frontend with Tailwind CSS for responsive design, and an Express/MongoDB backend for managing content. The website includes service listings, portfolio showcase, and contact forms for inquiries.",
+    results: [
+      "Increased client inquiries by 30%",
+      "Enhanced user experience with intuitive navigation",
+      "Reduced bounce rate by 25%"
+    ],
+    features: [
+      "Product listings with images and details",
+      "Shopping cart with quantity management",
+      "Secure checkout process with payment integration",
+      "Responsive design for mobile and desktop",
+      "Product categorization and filtering options"
+    ],
+    timeline: "1.5 months",
+    role: "Full Stack Developer",
+    category: "Personal Branding",
+    images: [
+      {
+        src: "/projects/rasaclothes/homepage.png",
+        alt: "Rasa Clothes Collection Homepage",
+        title: "Rasa Clothes Collection Homepage",
+        description: "Rasa Clothes Collection Homepage with all the products, search functionality and contact forms."
+       },
+       {
+        src: "/projects/rasaclothes/productdetailspage.png",
+        alt: "Product Details Page",
+        title: "Product  Details Page",
+        description: "Product Details Page with all the product details, sizes, colors, quantity selection and add to cart functionality."
+       },
+        {
+        src: "/projects/rasaclothes/cartpage.png",
+        alt: "Cart Page",
+        title: "Cart Page",
+        description: "Cart Page with all the products in the cart, quantity selection and checkout button."
+       },
+        {
+        src: "/projects/rasaclothes/checkoutpage.png",
+        alt: "Checkout Page",
+        title: "Checkout Page",
+        description: "Checkout Page with shipping address, payment method selection and order summary."
+       },
+        {
+        src: "/projects/rasaclothes/finalorders.png",
+        alt: "Order Confirmation Page",
+        title: "Order Confirmation Page",
+        description: "Order Confirmation Page with order details, shipping address and payment method."
+       },
+        {
+        src: "/projects/rasaclothes/userorderspage.png",
+        alt: "User Orders Profile Page",
+        title: "User Orders Profile Page",
+        description: "User Orders Profile Page with all the orders placed by the user, order details and order status."
+       },
+        {
+        src: "/projects/rasaclothes/ordersdetailsviewpage.png",
+        alt: "User Order Details View Page",
+        title: "User Order Details View Page",
+        description: "User Order Details View Page with all the details of the order placed by the user, order status and order tracking."
+       },
+      ]
+  },
+
 ];
 
 const CaseStudy = () => {
