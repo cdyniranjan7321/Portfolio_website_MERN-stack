@@ -84,6 +84,14 @@ const projects = [
     github: "",
     live: "",
   },
+   {
+    id: "Rasa IT Solutions",
+    title: "Rasa IT Solutions",
+    desc: "Rasa IT Solutions is a website for an IT solutions company, showcasing their services, portfolio, and contact information. It provides an overview of the company's offerings and allows potential clients to get in touch for inquiries.",
+    tech: ["React", "Tailwind CSS", "javascript", "Node.js", "MongoDB"],
+    github: "https://github.com/cdyniranjan7321/rasa_IT_solutions",
+    live: "https://rasa-it-solutions.onrender.com/",
+  },
 ];
 
 const Projects = () => {
