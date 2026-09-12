@@ -720,13 +720,12 @@ const projects = [
       "Reduced bounce rate by 25%"
     ],
     features: [
-      "Product listings with images and details",
-      "Shopping cart with quantity management",
-      "Secure checkout process with payment integration",
+      "Service listings with detailed descriptions",
+      "Portfolio showcase with project details",
+      "Contact forms for inquiries",
       "Responsive design for mobile and desktop",
-      "Product categorization and filtering options"
     ],
-    timeline: "1.5 months",
+    timeline: "1.2 months",
     role: "Full Stack Developer",
     category: "Personal Branding",
     images: [
