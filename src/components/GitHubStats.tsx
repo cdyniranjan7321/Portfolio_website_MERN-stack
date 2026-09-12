@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 
 const GitHubStats = () => {
   const [stats, setStats] = useState({
-    repos: 44,
+    repos: 46,
     followers: 0,
-    totalStars: 26,
+    totalStars: 30,
     totalForks: 0,
     contributions: 5268,
   });
@@ -21,8 +21,8 @@ const GitHubStats = () => {
       .then((data) => {
         setStats((prev) => ({
           ...prev,
-          repos: data.public_repos || 32,
-          followers: data.followers || 12,
+          repos: data.public_repos || 1,
+          followers: data.followers || 45,
         }));
       })
       .catch((err) => console.error("GitHub API error:", err));

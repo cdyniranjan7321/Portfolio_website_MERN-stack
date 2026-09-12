@@ -702,7 +702,42 @@ const projects = [
         description: "Manage Course Page with all course details and add video lesson functions."
        },
       ]
-    }
+    },
+
+    {
+    id: "Rasa IT Solutions",
+    title: "Rasa IT Solutions",
+    desc: "Rasa IT Solutions is a professional IT services website that provides information about the company's services, portfolio, and contact details. It serves as an online presence for the company to attract potential clients and showcase their expertise.",
+    tech: ["React", "Tailwind CSS", "Express", "MongoDB"],
+    github: "https://github.com/cdyniranjan7321/rasa_IT_solutions",
+    live: "https://rasa-it-solutions.onrender.com/",
+    fullDescription: "A professional IT services website that provides information about the company's services, portfolio, and contact details. It serves as an online presence for the company to attract potential clients and showcase their expertise.",
+    challenge: "The challenge was to create a visually appealing and informative website that effectively communicates the company's services and expertise while ensuring a smooth user experience.",
+    solution: "Developed a React frontend with Tailwind CSS for responsive design, and an Express/MongoDB backend for managing content. The website includes service listings, portfolio showcase, and contact forms for inquiries.",
+    results: [
+      "Increased client inquiries by 30%",
+      "Enhanced user experience with intuitive navigation",
+      "Reduced bounce rate by 25%"
+    ],
+    features: [
+      "Service listings with detailed descriptions",
+      "Portfolio showcase with project details",
+      "Contact forms for inquiries",
+      "Responsive design for mobile and desktop",
+    ],
+    timeline: "1.2 months",
+    role: "Full Stack Developer",
+    category: "Personal Branding",
+    images: [
+      {
+        src: "/projects/rasaitsolutions/homepage.png",
+        alt: "Rasa IT Solutions Homepage",
+        title: "Rasa IT Solutions Homepage",
+        description: "Rasa IT Solutions Homepage with all the services, portfolio and contact forms."
+       },
+      ]
+  },
+
 ];
 
 const CaseStudy = () => {

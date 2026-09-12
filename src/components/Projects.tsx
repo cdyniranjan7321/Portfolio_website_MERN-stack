@@ -81,8 +81,16 @@ const projects = [
     title: "Ridgeline LMS Website",
     desc: "Learning Management System supports two distinct user experiences through role-based access control: instructors can create courses, upload video lessons, and monitor student progress, while students can browse a course catalog, enroll, stream lessons, and track their own completion in real time.",
     tech: ["React", "Tailwind CSS", "typeScript", "Node.js", "MongoDB"],
-    github: "",
+    github: "https://github.com/cdyniranjan7321/Ridgeline-Learning-Management-System",
     live: "",
+  },
+   {
+    id: "Rasa IT Solutions",
+    title: "Rasa IT Solutions",
+    desc: "Rasa IT Solutions is a website for an IT solutions company, showcasing their services, portfolio, and contact information. It provides an overview of the company's offerings and allows potential clients to get in touch for inquiries.",
+    tech: ["React", "Tailwind CSS", "javascript", "Node.js", "MongoDB"],
+    github: "https://github.com/cdyniranjan7321/rasa_IT_solutions",
+    live: "https://rasa-it-solutions.onrender.com/",
   },
 ];
 
