@@ -81,7 +81,7 @@ const projects = [
     title: "Ridgeline LMS Website",
     desc: "Learning Management System supports two distinct user experiences through role-based access control: instructors can create courses, upload video lessons, and monitor student progress, while students can browse a course catalog, enroll, stream lessons, and track their own completion in real time.",
     tech: ["React", "Tailwind CSS", "typeScript", "Node.js", "MongoDB"],
-    github: "",
+    github: "https://github.com/cdyniranjan7321/Ridgeline-Learning-Management-System",
     live: "",
   },
    {
