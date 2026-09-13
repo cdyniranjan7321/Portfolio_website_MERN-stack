@@ -735,6 +735,30 @@ const projects = [
         title: "Rasa IT Solutions Homepage",
         description: "Rasa IT Solutions Homepage with all the services, portfolio and contact forms."
        },
+        {
+        src: "/projects/rasaitsolutions/works.png",
+        alt: "Rasa IT Solutions Works Page",
+        title: "Rasa IT Solutions Works Page",
+        description: "Rasa IT Solutions Works Page with all the works and their details."
+       },
+        {
+        src: "/projects/rasaitsolutions/careers.png",
+        alt: "Rasa IT Solutions Careers Page",
+        title: "Rasa IT Solutions Careers Page",
+        description: "Rasa IT Solutions Careers Page with all the careers and their details."
+       },
+        {
+        src: "/projects/rasaitsolutions/gallery.png",
+        alt: "Rasa IT Solutions Gallery Page",
+        title: "Rasa IT Solutions Gallery Page",
+        description: "Rasa IT Solutions Gallery Page with all the gallery and their details."
+       },
+        {
+        src: "/projects/rasaitsolutions/contact.png",
+        alt: "Rasa IT Solutions Contact Page",
+        title: "Rasa IT Solutions Contact Page",
+        description: "Rasa IT Solutions Contact Page with contact form for inquiries."
+       },
       ]
   },
 
