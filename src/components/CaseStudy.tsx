@@ -735,6 +735,12 @@ const projects = [
         title: "Rasa IT Solutions Homepage",
         description: "Rasa IT Solutions Homepage with all the services, portfolio and contact forms."
        },
+        {
+        src: "/projects/rasaitsolutions/works.png",
+        alt: "Rasa IT Solutions Works Page",
+        title: "Rasa IT Solutions Works Page",
+        description: "Rasa IT Solutions Homepage with all the services, portfolio and contact forms."
+       },
       ]
   },
 
